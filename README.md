@@ -1,7 +1,7 @@
 # maCProcessing
  
 ## What is it?
-* It's the same basic framework that provides simple implementations for many of the common things used in 2D games all within the C programming language. Now in for macOS!
+* It's the same basic framework that provides simple implementations for many of the common things used in 2D games all within the C programming language. Now for macOS!
  
 ## What can you do with it?
 * Currently a student project to help give other students the ability to use the power of CProcessing on their mac's
