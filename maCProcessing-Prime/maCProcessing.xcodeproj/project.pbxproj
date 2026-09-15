@@ -802,6 +802,8 @@
 					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/x64",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/x86",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/nanovg/example",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/ARM",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -822,6 +824,8 @@
 					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/x64",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/x86",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/nanovg/example",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/ARM",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
