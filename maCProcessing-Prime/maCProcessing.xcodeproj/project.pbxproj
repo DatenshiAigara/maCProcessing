@@ -16,6 +16,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		7EEB94383059EEE300EF37E4 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -67,9 +77,22 @@
 		7EA6DE713059BBB600372479 /* welcome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = welcome.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		7EEB94393059EEE400EF37E4 /* Exceptions for "CProcessing" folder in "Embed Libraries" phase from "CProcessing" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 7EEB94383059EEE300EF37E4 /* Embed Libraries */;
+			membershipExceptions = (
+				CProcessing/GLFW/lib/ARM/libglfw.3.dylib,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7E5F944930547CBC00E8730E /* CProcessing */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7EEB94393059EEE400EF37E4 /* Exceptions for "CProcessing" folder in "Embed Libraries" phase from "CProcessing" target */,
+			);
 			path = CProcessing;
 			sourceTree = "<group>";
 		};
@@ -427,6 +450,7 @@
 				7E5F944330547CBC00E8730E /* Sources */,
 				7E5F944430547CBC00E8730E /* Frameworks */,
 				7E5F944530547CBC00E8730E /* CopyFiles */,
+				7EEB94383059EEE300EF37E4 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -558,12 +582,12 @@
 					ProjectRef = 7EA6DBA63059BB1400372479 /* example_gles2.xcodeproj */;
 				},
 				{
-					ProductGroup = 7E673A2D3059BCF2002ACD54 /* Products */;
-					ProjectRef = 7E6737AC3059BCF2002ACD54 /* example_gles2.xcodeproj */;
-				},
-				{
 					ProductGroup = 7E673DFC3059C29F002ACD54 /* Products */;
 					ProjectRef = 7E673CCE3059C29F002ACD54 /* example_gles2.xcodeproj */;
+				},
+				{
+					ProductGroup = 7E673A2D3059BCF2002ACD54 /* Products */;
+					ProjectRef = 7E6737AC3059BCF2002ACD54 /* example_gles2.xcodeproj */;
 				},
 				{
 					ProductGroup = 7EA6DBB73059BB1400372479 /* Products */;
@@ -804,6 +828,7 @@
 					"$(PROJECT_DIR)/CProcessing/CProcessing/nanovg/example",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/ARM",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/build/xcode15",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -826,6 +851,7 @@
 					"$(PROJECT_DIR)/CProcessing/CProcessing/nanovg/example",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/ARM",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/build/xcode15",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
