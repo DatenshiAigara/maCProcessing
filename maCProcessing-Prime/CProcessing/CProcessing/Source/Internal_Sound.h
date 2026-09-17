@@ -21,7 +21,7 @@ extern "C" {
 #ifdef __APPLE__
 #include <sys/syslimits.h>
 #endif
-#include
+#include "soloud_c.h"
 
 //------------------------------------------------------------------------------
 // Defines:

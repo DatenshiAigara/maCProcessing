@@ -32,25 +32,9 @@
 		7E5F944730547CBC00E8730E /* CProcessing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CProcessing; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		7EEB94393059EEE400EF37E4 /* Exceptions for "CProcessing" folder in "Embed Libraries" phase from "CProcessing" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			attributesByRelativePath = {
-				CProcessing/GLFW/lib/ARM/libglfw.3.dylib = (CodeSignOnCopy, );
-			};
-			buildPhase = 7EEB94383059EEE300EF37E4 /* Embed Libraries */;
-			membershipExceptions = (
-				CProcessing/GLFW/lib/ARM/libglfw.3.dylib,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7E5F944930547CBC00E8730E /* CProcessing */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7EEB94393059EEE400EF37E4 /* Exceptions for "CProcessing" folder in "Embed Libraries" phase from "CProcessing" target */,
-			);
 			path = CProcessing;
 			sourceTree = "<group>";
 		};
@@ -290,6 +274,9 @@
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/ARM",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/build/xcode15",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/ARM",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/macOS",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/macOS",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +301,9 @@
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/ARM",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/build/xcode15",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/ARM",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/macOS",
+					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/macOS",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";

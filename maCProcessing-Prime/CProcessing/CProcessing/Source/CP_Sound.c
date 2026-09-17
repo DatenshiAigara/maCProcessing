@@ -3,22 +3,29 @@
 // author:	Daniel Hamilton, Andrea Ellinger, Justin Chambers
 // brief:	Load, play and manipulate sound files 
 //
-// Copyright © 2025 DigiPen, All rights reserved.
+// Copyright ï¿½ 2025 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
 // Include Files:
 //------------------------------------------------------------------------------
 
+#include <stdbool.h>
 #include "cprocessing.h"
 #include "Internal_Sound.h"
 #include "vect.h"
+#include "soloud_c.h"
+#ifdef __APPLE__
+#include <sys/syslimits.h>
+#endif
 
 //------------------------------------------------------------------------------
 // Defines and Internal Variables:
 //------------------------------------------------------------------------------
 
 #define CP_INITIAL_SOUND_CAPACITY   12
+#define __declspec(input)
+#define strcpy_s strcpy
 
 VECT_GENERATE_TYPE(CP_Sound)
 
@@ -50,7 +57,7 @@ static void SL_Sound_Release(CP_Sound sound)
 // Internal Functions:
 //------------------------------------------------------------------------------
 
-static BOOL CP_IsValidSoundGroup(CP_SOUND_GROUP group)
+static bool CP_IsValidSoundGroup(CP_SOUND_GROUP group)
 {
 	return group >= 0 && group < CP_SOUND_GROUP_MAX;
 }
@@ -173,7 +180,7 @@ CP_Sound CP_Sound_LoadInternal(const char* filepath, CP_BOOL streamFromDisc)
 	}
 
 	// Set filepath string for cache checking
-	strcpy_s(sound->filepath, MAX_PATH, filepath);
+	strcpy_s(sound->filepath, filepath);
 
 	// Add it to the list
 	vect_push_CP_Sound(sound_vector, sound);
@@ -187,12 +194,12 @@ CP_Sound CP_Sound_LoadInternal(const char* filepath, CP_BOOL streamFromDisc)
 
 CP_API CP_Sound CP_Sound_Load(const char* filepath)
 {
-	return CP_Sound_LoadInternal(filepath, FALSE);
+	return CP_Sound_LoadInternal(filepath, false);
 }
 
 CP_API CP_Sound CP_Sound_LoadStream(const char* filepath)
 {
-	return CP_Sound_LoadInternal(filepath, TRUE);
+	return CP_Sound_LoadInternal(filepath, true);
 }
 
 CP_API void CP_Sound_Free(CP_Sound* sound)
@@ -226,11 +233,11 @@ CP_API void CP_Sound_Play(CP_Sound sound)
 {
 	if (sound->type == SL_AUDIOSOURCE_STREAM)
 	{
-		CP_Sound_PlayAdvanced(sound, 1.0f, 1.0f, TRUE, CP_SOUND_GROUP_MUSIC);
+		CP_Sound_PlayAdvanced(sound, 1.0f, 1.0f, true, CP_SOUND_GROUP_MUSIC);
 	}
 	else
 	{
-		CP_Sound_PlayAdvanced(sound, 1.0f, 1.0f, FALSE, CP_SOUND_GROUP_SFX);
+		CP_Sound_PlayAdvanced(sound, 1.0f, 1.0f, false, CP_SOUND_GROUP_SFX);
 	}
 }
 
@@ -253,7 +260,7 @@ CP_API void CP_Sound_PlayAdvanced(CP_Sound sound, float volume, float pitch, CP_
 	}
 
 	// Start the sound paused so we can set parameters on it
-	unsigned int voice = Soloud_playEx(_soloud_system, sound->sound, volume * voice_groups[group].volume, 0, TRUE, 0);
+	unsigned int voice = Soloud_playEx(_soloud_system, sound->sound, volume * voice_groups[group].volume, 0, true, 0);
 	Soloud_addVoiceToGroup(_soloud_system, voice_groups[group].handle, voice);
 
 	// Set the pitch if it is not 1.0
@@ -267,33 +274,33 @@ CP_API void CP_Sound_PlayAdvanced(CP_Sound sound, float volume, float pitch, CP_
 	}
 
 	// Resume playing the sound
-	Soloud_setPause(_soloud_system, voice, FALSE);
+	Soloud_setPause(_soloud_system, voice, false);
 	// TODO: handle error
 }
 
 CP_API void CP_Sound_PauseAll(void)
 {
-	Soloud_setPauseAll(_soloud_system, TRUE);
+	Soloud_setPauseAll(_soloud_system, true);
 }
 
 CP_API void CP_Sound_PauseGroup(CP_SOUND_GROUP group)
 {
 	if(CP_IsValidSoundGroup(group))
 	{
-		Soloud_setPause(_soloud_system, voice_groups[group].handle, TRUE);
+		Soloud_setPause(_soloud_system, voice_groups[group].handle, true);
 	}
 }
 
 CP_API void CP_Sound_ResumeAll(void)
 {
-	Soloud_setPauseAll(_soloud_system, FALSE);
+	Soloud_setPauseAll(_soloud_system, false);
 }
 
 CP_API void CP_Sound_ResumeGroup(CP_SOUND_GROUP group)
 {
 	if (CP_IsValidSoundGroup(group))
 	{
-		Soloud_setPause(_soloud_system, voice_groups[group].handle, FALSE);
+		Soloud_setPause(_soloud_system, voice_groups[group].handle, false);
 	}
 }
 
