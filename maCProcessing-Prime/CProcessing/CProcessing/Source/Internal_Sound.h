@@ -5,7 +5,7 @@
 //
 // INTERNAL USE ONLY, DO NOT DISTRIBUTE
 //
-// Copyright © 2025 DigiPen, All rights reserved.
+// Copyright ï¿½ 2026 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 #pragma once
@@ -18,7 +18,10 @@ extern "C" {
 // Include Files:
 //------------------------------------------------------------------------------
 
-#include "soloud_c.h"
+#ifdef __APPLE__
+#include <sys/syslimits.h>
+#endif
+#include
 
 //------------------------------------------------------------------------------
 // Defines:
@@ -47,7 +50,7 @@ typedef enum SL_AUDIOSOURCE_TYPE
 
 typedef struct CP_Sound_Struct
 {
-	char filepath[MAX_PATH];
+	char filepath[PATH_MAX];
     AudioSource* sound;
 	SL_AUDIOSOURCE_TYPE type;
 } CP_Sound_Struct;

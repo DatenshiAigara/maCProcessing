@@ -1,9 +1,10 @@
 //------------------------------------------------------------------------------
 // file:	CP_Color.c
 // author:	Daniel Hamilton
+// modifier: Hazel Benting
 // brief:	Create and edit colors
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2026 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
@@ -13,6 +14,8 @@
 #include <math.h>
 #include "cprocessing.h"
 #include "Internal_System.h"
+
+#define __declspec(input)
 
 //------------------------------------------------------------------------------
 // Defines:

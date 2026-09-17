@@ -1,15 +1,19 @@
 //------------------------------------------------------------------------------
 // file:	Interal_Image.h
 // author:	Daniel Hamilton
+// modifier: Hazel Benting
 // brief:	API for loading and displaying images
 //
 // INTERNAL USE ONLY, DO NOT DISTRIBUTE
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2026 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 #pragma once
 
+#ifdef __APPLE__
+#include <sys/syslimits.h> // For PATH_MAX built into macOS, similar to MAX_PATH on windows
+#endif
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -33,7 +37,7 @@ extern "C" {
 typedef struct CP_Image_Struct
 {
     int handle;              // handle to the nanoVG image
-    char filepath[MAX_PATH]; // full path of the image
+    char filepath[PATH_MAX]; // full path of the image
     int w;                   // width of the image
     int h;                   // height of the image
     int load_error;          // was there an error loading the image

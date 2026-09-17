@@ -5,7 +5,7 @@
 //
 // INTERNAL USE ONLY, DO NOT DISTRIBUTE
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2026 DigiPen, All rights reserved.
 //---------------------------------------------------------
 
 #pragma once

@@ -3,14 +3,13 @@
 // author:	Justin Chambers
 // brief:	Timing file to manage frames and fps
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
 // Include Files:
 //------------------------------------------------------------------------------
 
-#include "stdafx.h" // Must be first
 #include "cprocessing.h"
 #include "Internal_System.h"
 #include <stdbool.h>

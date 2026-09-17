@@ -24,13 +24,6 @@ extern "C"
 
 
 //---------------------------------------------------------
-// Windows Defines
-
-#define WIN32_LEAN_AND_MEAN
-#include <windows.h>
-
-
-//---------------------------------------------------------
 // Eports for DLL functions
 
 #ifdef CPROCESSING_EXPORTS

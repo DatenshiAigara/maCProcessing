@@ -3,7 +3,7 @@
 // author:	Daniel Hamilton
 // brief:	Helpful file IO functions  
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
@@ -19,9 +19,11 @@
 #define _UNISTD_H    1
 #endif
 #include <stdlib.h>   // _access
-#include <io.h>       // _access 
+#ifdef __APPLE__
+#include <sys/uio.h>       // _access
+#endif
 #include <sys/stat.h> // stat
-#include <direct.h>   // _mkdir
+//#include <direct.h>   // _mkdir
 
 
 //------------------------------------------------------------------------------
@@ -32,11 +34,6 @@
 These may be OR'd together.  */
 #define R_OK    4       /* Test for read permission.  */
 #define W_OK    2       /* Test for write permission.  */
-//#define   X_OK    1       /* execute permission - unsupported in windows*/
-#define F_OK    0       /* Test for existence.  */
-
-
-#define access _access
 
 //------------------------------------------------------------------------------
 // Private Consts:
@@ -68,21 +65,18 @@ These may be OR'd together.  */
 
 int file_exists(const char * filepath)
 {
-    if (access(filepath, F_OK) != -1)
-    {
+    if (file_dirExists(filepath)) {
         return CP_OK;
     }
-    else
-    {
+    else {
         return CP_ERROR_NOT_FOUND;
     }
 }
 
-int file_dirExists(const char * dirpath)
-{
+int file_dirExists(const char * dirpath) {
     struct stat s;
     int err = stat(dirpath, &s);
-    if(-1 == err) {
+    if (-1 == err) {
         if(ENOENT == errno) {
             /* does not exist */
             return CP_ERROR_NOT_FOUND;
@@ -105,7 +99,7 @@ int file_dirExists(const char * dirpath)
 
 int file_makedir(const char * dirpath)
 {
-    if (_mkdir(dirpath))
+    if (mkdir(dirpath, 0644))
     {
         return CP_OK;
     }

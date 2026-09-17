@@ -1,11 +1,12 @@
 //------------------------------------------------------------------------------
 // file:	Internal_File.h
 // author:	Daniel Hamilton
+// modifier: Hazel Benting
 // brief:	Helpful file IO functions
 //
 // INTERNAL USE ONLY, DO NOT DISTRIBUTE
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2026 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 #pragma once
@@ -20,6 +21,7 @@ extern "C" {
 
 #include <stdio.h>
 #include <stdbool.h>
+#include <sys/stat/h>
 
 //------------------------------------------------------------------------------
 // Defines:
@@ -32,15 +34,6 @@ extern "C" {
 #define CP_ERROR_NOT_DIR   -2 // checked if a directory exists and it exists, but isnt a directory
 #define CP_ERROR_NOT_FILE  -3 // checked if a file exists and it exists, but isnt a file
 #define CP_ERROR_INTERNAL  -5 // CProcessing internal error, its not your fault, its mine
-
-///////////////////////////////////////////////
-// Please ignore this Justin
-#if defined(WIN32) || defined(WIN64)
-// Copied from linux libc sys/stat.h:
-#define S_ISREG(m) (((m) & S_IFMT) == S_IFREG)
-#define S_ISDIR(m) (((m) & S_IFMT) == S_IFDIR)
-#endif
-///////////////////////////////////////////////
 
 //------------------------------------------------------------------------------
 // Public Consts:
