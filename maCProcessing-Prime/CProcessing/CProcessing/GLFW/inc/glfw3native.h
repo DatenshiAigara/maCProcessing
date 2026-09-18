@@ -102,7 +102,7 @@ extern "C" {
    #undef APIENTRY
    #undef GLFW_APIENTRY_DEFINED
   #endif
-  #include <windows.h>
+  //#include <windows.h>
  #endif
 
  #if defined(GLFW_EXPOSE_NATIVE_COCOA) || defined(GLFW_EXPOSE_NATIVE_NSGL)
@@ -222,7 +222,7 @@ GLFWAPI const char* glfwGetWin32Monitor(GLFWmonitor* monitor);
  *
  *  @ingroup native
  */
-GLFWAPI HWND glfwGetWin32Window(GLFWwindow* window);
+//GLFWAPI HWND glfwGetWin32Window(GLFWwindow* window);
 #endif
 
 #if defined(GLFW_EXPOSE_NATIVE_WGL)

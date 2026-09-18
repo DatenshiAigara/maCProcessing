@@ -19,7 +19,7 @@
 // Defines:
 //------------------------------------------------------------------------------
 
-#define __declspec(input)
+//#define __declspec(dllexport)
 
 //------------------------------------------------------------------------------
 // Private Consts:
@@ -119,7 +119,7 @@ void CP_UpdateFrameTime()
     ElapsedSeconds = EndingTime - StartingTime;
 }
 
-DLL_EXPORT int getframeCount()
+int getframeCount()
 {
 	return _frameCount;
 }

@@ -21,7 +21,6 @@ extern "C" {
 
 #include <stdio.h>
 #include <stdbool.h>
-#include <sys/stat/h>
 
 //------------------------------------------------------------------------------
 // Defines:

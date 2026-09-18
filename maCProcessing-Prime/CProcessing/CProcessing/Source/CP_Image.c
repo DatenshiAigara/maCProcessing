@@ -3,7 +3,7 @@
 // author:	Daniel Hamilton
 // brief:	API for loading and displaying images
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
@@ -20,7 +20,11 @@
 // Defines and Internal Variables:
 //------------------------------------------------------------------------------
 
+#ifdef __APPLE__
+#include <sys/syslimits.h>
+#endif
 #define CP_INITIAL_IMAGE_COUNT 12
+#define strcpy_s strcpy
 
 VECT_GENERATE_TYPE(CP_Image)
 
@@ -162,7 +166,7 @@ static void CP_Image_DrawInternal(CP_Image img, float x, float y, float w, float
 // Library Functions:
 //------------------------------------------------------------------------------
 
-CP_API CP_Image CP_Image_Load(const char* filepath)
+CP_Image CP_Image_Load(const char* filepath)
 {
 	if (!filepath)
 	{
@@ -190,7 +194,7 @@ CP_API CP_Image CP_Image_Load(const char* filepath)
 		return NULL;
 	}
 
-	strcpy_s(img->filepath, MAX_PATH, filepath);
+	strcpy_s(img->filepath, filepath);
 
 	// load the image
 	img->handle = nvgCreateImage(CORE->nvg, filepath, 0);
@@ -207,14 +211,14 @@ CP_API CP_Image CP_Image_Load(const char* filepath)
 	// populate width/height
 	nvgImageSize(CORE->nvg, img->handle, &img->w, &img->h);
 
-	img->load_error = FALSE;
+	img->load_error = false;
 
 	CP_AddImageHandle(img);
 
 	return img;
 }
 
-CP_API void CP_Image_Free(CP_Image* img)
+void CP_Image_Free(CP_Image* img)
 {
 	if (img == NULL || *img == NULL)
 	{
@@ -237,7 +241,7 @@ CP_API void CP_Image_Free(CP_Image* img)
 	// TODO: handle error - we reached the end of the list without finding the image
 }
 
-CP_API int CP_Image_GetWidth(CP_Image img)
+int CP_Image_GetWidth(CP_Image img)
 {
 	if (!img)
 	{
@@ -246,7 +250,7 @@ CP_API int CP_Image_GetWidth(CP_Image img)
 	return img->w;
 }
 
-CP_API int CP_Image_GetHeight(CP_Image img)
+int CP_Image_GetHeight(CP_Image img)
 {
 	if (!img)
 	{
@@ -255,27 +259,27 @@ CP_API int CP_Image_GetHeight(CP_Image img)
 	return img->h;
 }
 
-CP_API void CP_Image_Draw(CP_Image img, float x, float y, float w, float h, int alpha)
+void CP_Image_Draw(CP_Image img, float x, float y, float w, float h, int alpha)
 {
 	CP_Image_DrawInternal(img, x, y, w, h, 0, 0, 0, 0, alpha, 0);
 }
 
-CP_API void CP_Image_DrawAdvanced(CP_Image img, float x, float y, float w, float h, int alpha, float degrees)
+void CP_Image_DrawAdvanced(CP_Image img, float x, float y, float w, float h, int alpha, float degrees)
 {
 	CP_Image_DrawInternal(img, x, y, w, h, 0, 0, 0, 0, alpha, degrees);
 }
 
-CP_API void CP_Image_DrawSubImage(CP_Image img, float x, float y, float w, float h, float u0, float v0, float u1, float v1, int alpha)
+void CP_Image_DrawSubImage(CP_Image img, float x, float y, float w, float h, float u0, float v0, float u1, float v1, int alpha)
 {
 	CP_Image_DrawInternal(img, x, y, w, h, u0, v0, u1, v1, alpha, 0);
 }
 
-CP_API void CP_Image_DrawSubImageAdvanced(CP_Image img, float x, float y, float w, float h, float u0, float v0, float u1, float v1, int alpha, float degrees)
+void CP_Image_DrawSubImageAdvanced(CP_Image img, float x, float y, float w, float h, float u0, float v0, float u1, float v1, int alpha, float degrees)
 {
 	CP_Image_DrawInternal(img, x, y, w, h, u0, v0, u1, v1, alpha, degrees);
 }
 
-CP_API CP_Image CP_Image_CreateFromData(int w, int h, unsigned char* pixelDataInput)
+CP_Image CP_Image_CreateFromData(int w, int h, unsigned char* pixelDataInput)
 {
 	if (!pixelDataInput)
 	{
@@ -297,8 +301,8 @@ CP_API CP_Image CP_Image_CreateFromData(int w, int h, unsigned char* pixelDataIn
 		return NULL;
 	}
 
-	char buffer[MAX_PATH] = { 0 };
-	strcpy_s(img->filepath, MAX_PATH, buffer);
+	char buffer[PATH_MAX] = { 0 };
+	strcpy_s(img->filepath, buffer);
 
 	// load the image
 	img->handle = nvgCreateImageRGBA(CORE->nvg, w, h, 0, pixelDataInput);
@@ -313,14 +317,14 @@ CP_API CP_Image CP_Image_CreateFromData(int w, int h, unsigned char* pixelDataIn
 	img->w = w;
 	img->h = h;
 
-	img->load_error = FALSE;
+	img->load_error = false;
 
 	CP_AddImageHandle(img);
 
 	return img;
 }
 
-CP_API CP_Image CP_Image_Screenshot(int x, int y, int w, int h)
+ CP_Image CP_Image_Screenshot(int x, int y, int w, int h)
 {
 	unsigned char* buffer = (unsigned char*)malloc(4 * w * h);
 	unsigned char* rowTemp = (unsigned char*)malloc(4 * w);
@@ -363,7 +367,7 @@ CP_API CP_Image CP_Image_Screenshot(int x, int y, int w, int h)
 	return newImg;
 }
 
-CP_API void CP_Image_GetPixelData(CP_Image img, CP_Color* pixelDataOutput)
+ void CP_Image_GetPixelData(CP_Image img, CP_Color* pixelDataOutput)
 {
     if (!img) return;
 
@@ -376,7 +380,7 @@ CP_API void CP_Image_GetPixelData(CP_Image img, CP_Color* pixelDataOutput)
     nvgGetImagePixelsRGBA(CORE->nvg, img->handle, (unsigned char*)pixelDataOutput);
 }
 
-CP_API void CP_Image_UpdatePixelData(CP_Image img, CP_Color* pixelDataInput)
+ void CP_Image_UpdatePixelData(CP_Image img, CP_Color* pixelDataInput)
 {
 	if (!img) return;
 

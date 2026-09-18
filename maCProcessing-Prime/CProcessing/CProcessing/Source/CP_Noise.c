@@ -3,12 +3,13 @@
 // author:	Justin Chambers
 // brief:	Noise implementation based on Ken Perlin's work with some improvements
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //---------------------------------------------------------
 
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+#include <string.h>
 #include "cprocessing.h"
 #include "Internal_Noise.h"
 
@@ -38,7 +39,7 @@ int p[permutationArraySize * 2];  // Doubled permutation to avoid overflow
 // Sets the seed value for noise().
 // By default, noise() produces different results each time the program is run.
 // Set the value parameter to a constant to return the same pseudo - random numbers each time the software is run.
-CP_API void CP_Random_NoiseSeed(int seed)
+void CP_Random_NoiseSeed(int seed)
 {
 	srand(seed);
 	int permutation[permutationArraySize];
@@ -120,7 +121,7 @@ static double lerp(double a, double b, double x)
 }
 
 //		Noise returns a value in the range [0, 1.0] based on three dimensional input values
-CP_API float CP_Random_Noise(float x, float y, float z)
+float CP_Random_Noise(float x, float y, float z)
 {
 	double xD = (double)x;
 	double yD = (double)y;

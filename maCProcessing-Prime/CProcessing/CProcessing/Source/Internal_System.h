@@ -6,7 +6,7 @@
 //
 // INTERNAL USE ONLY, DO NOT DISTRIBUTE
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //---------------------------------------------------------
 
 #pragma once
@@ -57,7 +57,7 @@ typedef struct CP_Core
 {
     NVGcontext* nvg;
     GLFWwindow* window;
-	HWND hwnd;
+	//HWND hwnd;
 	int window_width;
 	int window_height;
     int canvas_width;

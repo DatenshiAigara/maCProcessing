@@ -13,6 +13,9 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+#ifdef __APPLE__
+#include <sys/syslimits.h>
+#endif
 
 //------------------------------------------------------------------------------
 // Include Files:
@@ -33,7 +36,7 @@ extern "C" {
 typedef struct CP_Font_Struct
 {
     int handle;
-    char filepath[MAX_PATH];
+    char filepath[PATH_MAX];
     int load_error;
 } CP_Font_Struct;
 

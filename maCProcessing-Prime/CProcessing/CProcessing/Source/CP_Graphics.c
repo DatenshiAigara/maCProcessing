@@ -3,7 +3,7 @@
 // author:	Daniel Hamilton
 // brief:	Manipulate and draw basic vector shapes 
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
@@ -17,7 +17,7 @@
 // Defines and Internal Variables:
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-static CP_BOOL firstVertex = FALSE;
+static CP_BOOL firstVertex = true;
 
 //------------------------------------------------------------------------------
 // Internal Functions:
@@ -89,7 +89,7 @@ static void CP_Graphics_DrawRectInternal(float x, float y, float w, float h, flo
 // Library Functions:
 //------------------------------------------------------------------------------
 
-CP_API void CP_Graphics_ClearBackground(CP_Color c)
+void CP_Graphics_ClearBackground(CP_Color c)
 {
 	// Set the background color
 	nvgCancelFrame(GetCPCore()->nvg);	// also wipe any prior render calls this frame
@@ -97,7 +97,7 @@ CP_API void CP_Graphics_ClearBackground(CP_Color c)
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 }
 
-CP_API void CP_Graphics_DrawPoint(float x, float y)
+void CP_Graphics_DrawPoint(float x, float y)
 {
 	CP_CorePtr CORE = GetCPCore();
 	CP_DrawInfoPtr DI = GetDrawInfo();
@@ -111,7 +111,7 @@ CP_API void CP_Graphics_DrawPoint(float x, float y)
 	}
 }
 
-CP_API void CP_Graphics_DrawLine(float x1, float y1, float x2, float y2)
+void CP_Graphics_DrawLine(float x1, float y1, float x2, float y2)
 {
 	CP_CorePtr CORE = GetCPCore();
 	CP_DrawInfoPtr DI = GetDrawInfo();
@@ -126,7 +126,7 @@ CP_API void CP_Graphics_DrawLine(float x1, float y1, float x2, float y2)
 	}
 }
 
-CP_API void CP_Graphics_DrawLineAdvanced(float x1, float y1, float x2, float y2, float degrees)
+void CP_Graphics_DrawLineAdvanced(float x1, float y1, float x2, float y2, float degrees)
 {
 	CP_CorePtr CORE = GetCPCore();
 	CP_DrawInfoPtr DI = GetDrawInfo();
@@ -149,22 +149,22 @@ CP_API void CP_Graphics_DrawLineAdvanced(float x1, float y1, float x2, float y2,
 	nvgRestore(CORE->nvg);
 }
 
-CP_API void CP_Graphics_DrawRect(float x, float y, float w, float h)
+void CP_Graphics_DrawRect(float x, float y, float w, float h)
 {
 	CP_Graphics_DrawRectInternal(x, y, w, h, 0, 0);
 }
 
-CP_API void CP_Graphics_DrawRectAdvanced(float x, float y, float w, float h, float degrees, float cornerRadius)
+void CP_Graphics_DrawRectAdvanced(float x, float y, float w, float h, float degrees, float cornerRadius)
 {
 	CP_Graphics_DrawRectInternal(x, y, w, h, degrees, cornerRadius);
 }
 
-CP_API void CP_Graphics_DrawCircle(float x, float y, float d)
+void CP_Graphics_DrawCircle(float x, float y, float d)
 {
 	CP_Graphics_DrawEllipse(x, y, d, d);
 }
 
-CP_API void CP_Graphics_DrawEllipse(float x, float y, float w, float h)
+void CP_Graphics_DrawEllipse(float x, float y, float w, float h)
 {
 	CP_CorePtr CORE = GetCPCore();
 	CP_DrawInfoPtr DI = GetDrawInfo();
@@ -199,7 +199,7 @@ CP_API void CP_Graphics_DrawEllipse(float x, float y, float w, float h)
 	}
 }
 
-CP_API void CP_Graphics_DrawEllipseAdvanced(float x, float y, float w, float h, float degrees)
+void CP_Graphics_DrawEllipseAdvanced(float x, float y, float w, float h, float degrees)
 {
 	CP_CorePtr CORE = GetCPCore();
 
@@ -217,7 +217,7 @@ CP_API void CP_Graphics_DrawEllipseAdvanced(float x, float y, float w, float h, 
 	nvgRestore(CORE->nvg);
 }
 
-CP_API void CP_Graphics_DrawTriangle(float x1, float y1, float x2, float y2, float x3, float y3)
+void CP_Graphics_DrawTriangle(float x1, float y1, float x2, float y2, float x3, float y3)
 {
 	CP_CorePtr CORE = GetCPCore();
 	CP_DrawInfoPtr DI = GetDrawInfo();
@@ -239,7 +239,7 @@ CP_API void CP_Graphics_DrawTriangle(float x1, float y1, float x2, float y2, flo
 	}
 }
 
-CP_API void CP_Graphics_DrawTriangleAdvanced(float x1, float y1, float x2, float y2, float x3, float y3, float degrees)
+void CP_Graphics_DrawTriangleAdvanced(float x1, float y1, float x2, float y2, float x3, float y3, float degrees)
 {
 	CP_CorePtr CORE = GetCPCore();
 
@@ -262,7 +262,7 @@ CP_API void CP_Graphics_DrawTriangleAdvanced(float x1, float y1, float x2, float
 //  first pair of parameters (x1,y1) sets the first vertex and the subsequent pairs //
 //  should proceed clockwise or counter-clockwise around the defined shape.         //
 //////////////////////////////////////////////////////////////////////////////////////
-CP_API void CP_Graphics_DrawQuad(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)
+void CP_Graphics_DrawQuad(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)
 {
 	CP_CorePtr CORE = GetCPCore();
 	CP_DrawInfoPtr DI = GetDrawInfo();
@@ -285,7 +285,7 @@ CP_API void CP_Graphics_DrawQuad(float x1, float y1, float x2, float y2, float x
 	}
 }
 
-CP_API void CP_Graphics_DrawQuadAdvanced(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4, float degrees)
+void CP_Graphics_DrawQuadAdvanced(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4, float degrees)
 {
 	CP_CorePtr CORE = GetCPCore();
 
@@ -300,14 +300,14 @@ CP_API void CP_Graphics_DrawQuadAdvanced(float x1, float y1, float x2, float y2,
 	nvgRestore(CORE->nvg);
 }
 
-CP_API void CP_Graphics_BeginShape(void)
+void CP_Graphics_BeginShape(void)
 {
 	CP_CorePtr CORE = GetCPCore();
 	nvgBeginPath(CORE->nvg);
-	firstVertex = TRUE;
+	firstVertex = true;
 }
 
-CP_API void CP_Graphics_AddVertex(float x, float y)
+void CP_Graphics_AddVertex(float x, float y)
 {
 	CP_CorePtr CORE = GetCPCore();
 
@@ -316,7 +316,7 @@ CP_API void CP_Graphics_AddVertex(float x, float y)
 		nvgMoveTo(CORE->nvg, x, y);
 
 		// Update tracking
-		firstVertex = FALSE;
+		firstVertex = false;
 	}
 	else
 	{
@@ -324,7 +324,7 @@ CP_API void CP_Graphics_AddVertex(float x, float y)
 	}
 }
 
-CP_API void CP_Graphics_EndShape(void)
+void CP_Graphics_EndShape(void)
 {
 	CP_CorePtr CORE = GetCPCore();
 	CP_DrawInfoPtr DI = GetDrawInfo();

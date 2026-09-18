@@ -15,6 +15,9 @@
 #include "cprocessing.h"
 #include "Internal_System.h"
 
+#define max fmax
+#define min fmin
+
 #define __declspec(input)
 
 //------------------------------------------------------------------------------

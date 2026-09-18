@@ -3,7 +3,7 @@
 // author:	Justin Chambers
 // brief:	Header used to manage the DLL export/import declarations
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //---------------------------------------------------------
 
 #include "cprocessing.h"
@@ -75,17 +75,17 @@ void CP_Random_Init(void)
 // Library Functions:
 //------------------------------------------------------------------------------
 
-CP_API CP_BOOL CP_Random_GetBool(void)
+CP_BOOL CP_Random_GetBool(void)
 {
 	return internalRand() & 0x01;
 }
 
-CP_API uint32_t CP_Random_GetInt(void)
+uint32_t CP_Random_GetInt(void)
 {
 	return internalRand();
 }
 
-CP_API uint32_t CP_Random_RangeInt(unsigned int lowerBound, unsigned int upperBound)
+uint32_t CP_Random_RangeInt(unsigned int lowerBound, unsigned int upperBound)
 {
 	if (upperBound < lowerBound)
 	{
@@ -96,12 +96,12 @@ CP_API uint32_t CP_Random_RangeInt(unsigned int lowerBound, unsigned int upperBo
 	return lowerBound + internalRand() % ((upperBound - lowerBound) + 1);
 }
 
-CP_API float CP_Random_GetFloat(void)
+float CP_Random_GetFloat(void)
 {
 	return (float)internalRand() / (float)(MAX_RAND_INT);
 }
 
-CP_API float CP_Random_RangeFloat(float lowerBound, float upperBound)
+float CP_Random_RangeFloat(float lowerBound, float upperBound)
 {
 	if (upperBound < lowerBound)
 	{
@@ -112,7 +112,7 @@ CP_API float CP_Random_RangeFloat(float lowerBound, float upperBound)
 	return lowerBound + CP_Random_GetFloat() * (upperBound - lowerBound);
 }
 
-CP_API void CP_Random_Seed(int seed)
+void CP_Random_Seed(int seed)
 {
 #ifdef USE_XORSHIFT
 	xorshiftSeed(seed);
@@ -122,7 +122,7 @@ CP_API void CP_Random_Seed(int seed)
 }
 
 //		Gaussian returns a normally distributed value where the mean is 0 and the standard deviation is 1.0
-CP_API float CP_Random_Gaussian(void)
+float CP_Random_Gaussian(void)
 {
 	double mean = 0;
 	double stddev = 1.0;
