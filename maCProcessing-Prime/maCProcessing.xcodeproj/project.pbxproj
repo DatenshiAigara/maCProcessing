@@ -279,7 +279,7 @@
 					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/macOS",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/macOS",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -307,7 +307,7 @@
 					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/macOS",
 					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/macOS",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

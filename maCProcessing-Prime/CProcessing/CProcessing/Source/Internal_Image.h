@@ -1,7 +1,7 @@
 //------------------------------------------------------------------------------
 // file:	Interal_Image.h
 // author:	Daniel Hamilton
-// modifier: Hazel Benting
+// contributer: Hazel Benting
 // brief:	API for loading and displaying images
 //
 // INTERNAL USE ONLY, DO NOT DISTRIBUTE

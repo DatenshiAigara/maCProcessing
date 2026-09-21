@@ -12,7 +12,6 @@
 extern "C"
 {
 #endif
-/*
  
 //---------------------------------------------------------
 // Cleanup Warnings 
@@ -22,17 +21,6 @@ extern "C"
 #pragma warning(disable: 4204)  // nonstandard extension used : non-constant aggregate initializer
 #pragma warning(disable: 4090)  // different '__unaligned' qualifiers (this only shows up in x64)
 #endif
-
-
-//---------------------------------------------------------
-// Eports for DLL functions
-
-#ifdef CPROCESSING_EXPORTS
-	#define DLL_EXPORT __declspec(dllexport)
-#else
-	#define DLL_EXPORT __declspec(dllimport)
-#endif
-#define CP_API DLL_EXPORT
 
 
 //---------------------------------------------------------
@@ -357,8 +345,6 @@ typedef enum CP_GAMEPAD
 	GAMEPAD_X,
 	GAMEPAD_Y
 } CP_GAMEPAD;
-
-*/
 
 #ifdef __cplusplus
 }

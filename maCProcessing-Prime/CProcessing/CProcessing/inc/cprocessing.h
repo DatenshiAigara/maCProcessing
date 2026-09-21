@@ -49,8 +49,6 @@ extern "C"
 
 #include "cprocessing_common.h"
 
-/*
-
 //---------------------------------------------------------
 // ENGINE:
 //		Functions managing code flow
@@ -287,8 +285,6 @@ void CP_Random_Seed(int seed);
 float CP_Random_Gaussian(void);
 float CP_Random_Noise(float x, float y, float z);
 void CP_Random_NoiseSeed(int seed);
-
- */
  
 #ifdef __cplusplus
 }
