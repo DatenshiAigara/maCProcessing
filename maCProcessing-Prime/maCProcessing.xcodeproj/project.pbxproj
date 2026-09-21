@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7EA125D5306121E100DC7B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244D306119FE00DC7B1D /* Foundation.framework */; };
-		7EA125D6306121E900DC7B1D /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244F30611A0500DC7B1D /* Metal.framework */; };
-		7EA125D7306121F100DC7B1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1245130611A0C00DC7B1D /* QuartzCore.framework */; };
+		7ECFC3823061CAE20040DE33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244D306119FE00DC7B1D /* Foundation.framework */; };
+		7ECFC3833061CAEA0040DE33 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244F30611A0500DC7B1D /* Metal.framework */; };
+		7ECFC3843061CAEE0040DE33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1245130611A0C00DC7B1D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,9 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA125D7306121F100DC7B1D /* QuartzCore.framework in Frameworks */,
-				7EA125D6306121E900DC7B1D /* Metal.framework in Frameworks */,
-				7EA125D5306121E100DC7B1D /* Foundation.framework in Frameworks */,
+				7ECFC3833061CAEA0040DE33 /* Metal.framework in Frameworks */,
+				7ECFC3823061CAE20040DE33 /* Foundation.framework in Frameworks */,
+				7ECFC3843061CAEE0040DE33 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 2660;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					7E5F944630547CBC00E8730E = {
 						CreatedOnToolsVersion = 26.6;
@@ -184,6 +184,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = LY78Q5G3D4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -203,13 +204,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CProcessing/CProcessing/metal-cpp/";
+				HEADER_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 			};
 			name = Debug;
 		};
@@ -248,6 +250,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = LY78Q5G3D4;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -261,12 +264,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CProcessing/CProcessing/metal-cpp/";
+				HEADER_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 			};
 			name = Release;
 		};
@@ -274,25 +278,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = CProcessing/CProcessing;
 				DEVELOPMENT_TEAM = LY78Q5G3D4;
 				ENABLE_HARDENED_RUNTIME = YES;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CProcessing/lib/x64",
-					"$(PROJECT_DIR)/CProcessing/lib/x86",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/x64",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/x86",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/x64",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/x86",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/nanovg/example",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/ARM",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/build/xcode15",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/ARM",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/macOS",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/macOS",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 26.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -302,25 +292,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = CProcessing/CProcessing;
 				DEVELOPMENT_TEAM = LY78Q5G3D4;
 				ENABLE_HARDENED_RUNTIME = YES;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CProcessing/lib/x64",
-					"$(PROJECT_DIR)/CProcessing/lib/x86",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/x64",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/x86",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/x64",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/x86",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/nanovg/example",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/ARM",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/build/xcode15",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/ARM",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/soloud/lib/macOS",
-					"$(PROJECT_DIR)/CProcessing/CProcessing/GLFW/lib/macOS",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 26.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

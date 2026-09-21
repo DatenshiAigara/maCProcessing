@@ -12,6 +12,7 @@
 
 #include "cprocessing.h"
 #include "Internal_System.h"
+#include "CP_Metal.m"
 
 //------------------------------------------------------------------------------
 // Defines and Internal Variables:

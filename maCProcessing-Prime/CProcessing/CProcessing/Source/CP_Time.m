@@ -13,14 +13,10 @@
 #include "cprocessing.h"
 #include "Internal_System.h"
 #include <stdbool.h>
-#include "tinycthread.h"
 
-/*
 //------------------------------------------------------------------------------
 // Defines:
 //------------------------------------------------------------------------------
-
-//#define __declspec(dllexport)
 
 //------------------------------------------------------------------------------
 // Private Consts:
@@ -68,7 +64,7 @@ void CP_FrameRate_Init()
 
 void CP_FrameRate_FrameStart()
 {
-    StartingTime = glfwGetTime();
+    //StartingTime = glfwGetTime();
 
 	// Update frame count
 	CP_IncFrameCount();
@@ -96,7 +92,7 @@ void CP_FrameRate_FrameEnd()
 			prevSeconds = currSeconds;
 
 			// give back cycles to other processes if we don't need them
-			thrd_sleep(&(struct timespec){.tv_nsec = 1000000}, NULL);	// sleep 1 millisecond
+			//thrd_sleep(&(struct timespec){.tv_nsec = 1000000}, NULL);	// sleep 1 millisecond
 
 			// update the time after sleeping
 			CP_UpdateFrameTime();
@@ -116,7 +112,7 @@ void CP_FrameRate_FrameEnd()
 
 void CP_UpdateFrameTime()
 {
-	EndingTime = glfwGetTime();
+	//EndingTime = glfwGetTime();
     ElapsedSeconds = EndingTime - StartingTime;
 }
 
@@ -128,4 +124,3 @@ int getframeCount()
 //------------------------------------------------------------------------------
 // Private Functions:
 //------------------------------------------------------------------------------
-*/

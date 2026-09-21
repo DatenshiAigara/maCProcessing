@@ -8,8 +8,6 @@
 
 #include "cprocessing.h"
 #include "Internal_System.h"
-#include "tinycthread.h"
-#include "Internal_Graphics.h"
 
 #define kMaxFramesInFlight 3
 
@@ -20,7 +18,6 @@ CP_BOOL _deferredSizeChange = false;
 int _deferredWidth = 0;
 int _deferredHeight = 0;
 CP_BOOL _deferredFullscreen = false;
-
 
 /*
 typedef struct GameStateFuncs

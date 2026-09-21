@@ -6,7 +6,7 @@
 //
 // INTERNAL USE ONLY, DO NOT DISTRIBUTE
 //
-// Copyright � 2019 DigiPen, All rights reserved.
+// Copyright � 2026 DigiPen, All rights reserved.
 //---------------------------------------------------------
 
 #pragma once
@@ -24,26 +24,20 @@ extern "C" {
 #include "Internal_Noise.h"
 #include "Internal_Sound.h"
 #include "Internal_Text.h"
-#include "Internal_Graphics.h"
+#include "Internal_Metal.h"
 
-/*
-
-typedef struct GLFWwindow GLFWwindow;
-typedef struct NVGcontext NVGcontext;
-typedef struct NVGcolor NVGcolor;
-
-#define CP_MAX_STATES 32	// this should match NVG_MAX_STATES
+#define CP_MAX_STATES 32
 
 
 //////////////////
 typedef struct CP_DrawInfo
 {
-    CP_POSITION_MODE rect_mode;
-    CP_POSITION_MODE ellipse_mode;
-    CP_POSITION_MODE image_mode;
+    //CP_POSITION_MODE rect_mode;
+    //CP_POSITION_MODE ellipse_mode;
+    //CP_POSITION_MODE image_mode;
     int stroke;
     int fill;
-    CP_Matrix camera;
+    //CP_Matrix camera;
 } CP_DrawInfo;
 typedef CP_DrawInfo* CP_DrawInfoPtr;
 //////////////////
@@ -51,9 +45,6 @@ typedef CP_DrawInfo* CP_DrawInfoPtr;
 //////////////////
 typedef struct CP_Core
 {
-    NVGcontext* nvg;
-    GLFWwindow* window;
-	//HWND hwnd;
 	int window_width;
 	int window_height;
     int canvas_width;
@@ -87,8 +78,6 @@ void CP_FrameRate_FrameStart(void);
 void CP_FrameRate_FrameEnd(void);
 void CP_UpdateFrameTime(void);
 void CP_IncFrameCount(void);
-
-*/
 
 #ifdef __cplusplus
 }
