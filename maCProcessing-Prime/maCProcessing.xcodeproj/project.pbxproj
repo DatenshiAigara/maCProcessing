@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7EA124E630611EF100DC7B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244D306119FE00DC7B1D /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7EA124E730611EF100DC7B1D /* Foundation.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7EA1244D306119FE00DC7B1D /* Foundation.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7EA124E830611EF300DC7B1D /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244F30611A0500DC7B1D /* Metal.framework */; };
+		7EA124E930611EF300DC7B1D /* Metal.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7EA1244F30611A0500DC7B1D /* Metal.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7EA124EA30611EF400DC7B1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1245130611A0C00DC7B1D /* QuartzCore.framework */; };
+		7EA124EB30611EF400DC7B1D /* QuartzCore.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7EA1245130611A0C00DC7B1D /* QuartzCore.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7E5F944530547CBC00E8730E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +31,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7EA124E930611EF300DC7B1D /* Metal.framework in Embed Libraries */,
+				7EA124E730611EF100DC7B1D /* Foundation.framework in Embed Libraries */,
+				7EA124EB30611EF400DC7B1D /* QuartzCore.framework in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		7E5F944730547CBC00E8730E /* CProcessing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CProcessing; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA1244D306119FE00DC7B1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EA1244F30611A0500DC7B1D /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		7EA1245130611A0C00DC7B1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA124E630611EF100DC7B1D /* Foundation.framework in Frameworks */,
+				7EA124E830611EF300DC7B1D /* Metal.framework in Frameworks */,
+				7EA124EA30611EF400DC7B1D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				7E5F944930547CBC00E8730E /* CProcessing */,
+				7EA1244C306119FD00DC7B1D /* Frameworks */,
 				7E5F944830547CBC00E8730E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +84,16 @@
 				7E5F944730547CBC00E8730E /* CProcessing */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA1244C306119FD00DC7B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA1245130611A0C00DC7B1D /* QuartzCore.framework */,
+				7EA1244F30611A0500DC7B1D /* Metal.framework */,
+				7EA1244D306119FE00DC7B1D /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +173,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -177,7 +206,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu23;
+				GCC_C_LANGUAGE_STANDARD = c23;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -191,6 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CProcessing/metal-cpp";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -207,7 +237,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++23";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -240,7 +270,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu23;
+				GCC_C_LANGUAGE_STANDARD = c23;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -248,6 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CProcessing/metal-cpp";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MTL_ENABLE_DEBUG_INFO = NO;

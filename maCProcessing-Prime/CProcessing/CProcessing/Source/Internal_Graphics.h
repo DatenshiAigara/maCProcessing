@@ -6,10 +6,7 @@
 // Copyright � 2026DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
-//------------------------------------------------------------------------------
-// Include Files:
-//------------------------------------------------------------------------------
-
+/*
 #include<Metal/Metal.h>
 #include<Metal/MTLHeap.h>
 #include<Metal/MTLEvent.h>
@@ -90,4 +87,8 @@
 #include<Metal/MTL4SpecializedFunctionDescriptor.h>
 #include<Metal/MTL4PipelineDataSetSerializer.h>
 #include<Metal/MTL4MachineLearningCommandEncoder.h>
-
+#include<MetalKit/MetalKit.h>
+#include<MetalKit/MTKView.h>
+#include<MetalKit/MTKModel.h>
+#include<MetalKit/MTKDefines.h>
+#include<MetalKit/MTKTextureLoader.h> */

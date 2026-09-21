@@ -33,6 +33,7 @@ void game_exit(void)
 
 int main(void)
 {
+    CP_System_Fullscreen();
     //CP_Engine_SetNextGameState(game_init, game_update, game_exit);
     //CP_Engine_Run();
     return 0;
