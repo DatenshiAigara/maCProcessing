@@ -26,6 +26,7 @@
 #define CP_INITIAL_IMAGE_COUNT 12
 #define strcpy_s strcpy
 
+/*
 VECT_GENERATE_TYPE(CP_Image)
 
 static vect_CP_Image* image_vector = NULL;
@@ -392,3 +393,4 @@ CP_Image CP_Image_CreateFromData(int w, int h, unsigned char* pixelDataInput)
 
 	nvgUpdateImage(CORE->nvg, img->handle, (unsigned char*)pixelDataInput);
 }
+*/

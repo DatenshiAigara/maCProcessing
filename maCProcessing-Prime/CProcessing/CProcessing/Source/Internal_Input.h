@@ -14,9 +14,7 @@
 extern "C" {
 #endif
 
-// GLFW includes needed for input
-struct GLFWwindow;
-typedef struct GLFWwindow GLFWwindow;
+/*
 
 typedef struct CP_GAMEPAD_ANALOG_STATE
 {
@@ -42,7 +40,8 @@ CP_BOOL  CP_Input_IsValidKey(CP_KEY key);
 CP_BOOL  CP_Input_IsValidMouse(CP_MOUSE button);
 CP_BOOL  CP_Input_IsValidGamepad(CP_GAMEPAD button);
 ////////////////////////////////////////////////////////////////////////////////
-
+*/
+ 
 #ifdef __cplusplus
 }
 #endif

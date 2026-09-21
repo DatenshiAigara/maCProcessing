@@ -3,27 +3,23 @@
 // author:	Justin Chambers
 // brief:	Primary implementation of the CProcessing interface
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //---------------------------------------------------------
 
 #include "cprocessing.h"
 #include "Internal_System.h"
-#include "nanovg_gl.h"
 #include "tinycthread.h"
 
-#define GLFW_EXPOSE_NATIVE_WIN32
-#include "glfw3native.h"
-
-#define isRunning !glfwWindowShouldClose(_CORE.window)
+/*
 
 // Internal information
 static CP_Core _CORE = { 0 };
 static bool _isInitialized = false;
 
-CP_BOOL _deferredSizeChange = FALSE;
+CP_BOOL _deferredSizeChange = false;
 int _deferredWidth = 0;
 int _deferredHeight = 0;
-CP_BOOL _deferredFullscreen = FALSE;
+CP_BOOL _deferredFullscreen = false;
 
 typedef struct GameStateFuncs
 {
@@ -77,7 +73,7 @@ void SetCPCoreValues(void)
 	_CORE.canvas_height	= 0;
 	_CORE.native_width	= 0;
 	_CORE.native_height	= 0;
-	_CORE.isFullscreen	= FALSE;
+	_CORE.isFullscreen	= false;
 	_CORE.pixel_ratio	= 1.0f;
 	_CORE.window_posX	= -1;
 	_CORE.window_posY	= -1;
@@ -92,7 +88,7 @@ void SetCPCoreValues(void)
 
 // Run begins the CProcessing engine and starts calling init, update and exit functions.
 // This is the start and core of any C Processing program.
-CP_API void CP_Engine_Run(void)
+ void CP_Engine_Run(void)
 {
 	if (_isInitialized)
 	{
@@ -141,7 +137,7 @@ CP_API void CP_Engine_Run(void)
 	CP_Shutdown();
 }
 
-CP_API void CP_Engine_Terminate(void)
+ void CP_Engine_Terminate(void)
 {
 	// mark the program for termination
 	glfwSetWindowShouldClose(GetCPCore()->window, GL_TRUE);
@@ -150,7 +146,7 @@ CP_API void CP_Engine_Terminate(void)
 // Set the init, update and exit functions which CProcessing will call.
 // This is aware of the current state and won't re-initialize if called with the same functions.
 // update must have a valid input function, init and exit may be NULL if desired.
-CP_API void CP_Engine_SetNextGameState(FunctionPtr init, FunctionPtr update, FunctionPtr exit)
+ void CP_Engine_SetNextGameState(FunctionPtr init, FunctionPtr update, FunctionPtr exit)
 {
 	if (update == NULL || (_currState.init == init && _currState.update == update && _currState.exit == exit))
 	{
@@ -163,7 +159,7 @@ CP_API void CP_Engine_SetNextGameState(FunctionPtr init, FunctionPtr update, Fun
 // This forcefully overrides the current state so you can call this function
 // with the same inputs and it will cause the state to exit and re-initialize.
 // update must have a valid input function, init and exit may be NULL if desired.
-CP_API void CP_Engine_SetNextGameStateForced(FunctionPtr init, FunctionPtr update, FunctionPtr exit)
+ void CP_Engine_SetNextGameStateForced(FunctionPtr init, FunctionPtr update, FunctionPtr exit)
 {
 	_stateIsChanging = true;
 	_nextState.init = init;
@@ -171,12 +167,12 @@ CP_API void CP_Engine_SetNextGameStateForced(FunctionPtr init, FunctionPtr updat
 	_nextState.exit = exit;
 }
 
-CP_API void CP_Engine_SetPreUpdateFunction(FunctionPtr preUpdateFunction)
+ void CP_Engine_SetPreUpdateFunction(FunctionPtr preUpdateFunction)
 {
 	_preUpdateFunction = preUpdateFunction;
 }
 
-CP_API void CP_Engine_SetPostUpdateFunction(FunctionPtr postUpdateFunction)
+ void CP_Engine_SetPostUpdateFunction(FunctionPtr postUpdateFunction)
 {
 	_postUpdateFunction = postUpdateFunction;
 }
@@ -186,12 +182,12 @@ CP_API void CP_Engine_SetPostUpdateFunction(FunctionPtr postUpdateFunction)
 // SYSTEM:
 //		OS functions supporting window management and timing
 
-CP_API void CP_System_SetWindowSize(int new_width, int new_height)
+ void CP_System_SetWindowSize(int new_width, int new_height)
 {
 	CP_SetWindowSizeInternal(new_width, new_height, false);
 }
 
-CP_API void CP_System_SetWindowPosition(int x, int y)
+ void CP_System_SetWindowPosition(int x, int y)
 {
 	_CORE.window_posX = x;
 	_CORE.window_posY = y;
@@ -201,87 +197,87 @@ CP_API void CP_System_SetWindowPosition(int x, int y)
 	}
 }
 
-CP_API void CP_System_Fullscreen(void)
+ void CP_System_Fullscreen(void)
 {
 	CP_SetWindowSizeInternal(0, 0, true);
 }
 
-CP_API void CP_System_FullscreenAdvanced(int targetWidth, int targetHeight)
+ void CP_System_FullscreenAdvanced(int targetWidth, int targetHeight)
 {
 	CP_SetWindowSizeInternal(targetWidth, targetHeight, true);
 }
 
-CP_API int CP_System_GetWindowWidth(void)
+ int CP_System_GetWindowWidth(void)
 {
 	return _CORE.canvas_width;
 }
 
-CP_API int CP_System_GetWindowHeight(void)
+ int CP_System_GetWindowHeight(void)
 {
 	return _CORE.canvas_height;
 }
 
-CP_API int CP_System_GetDisplayWidth(void)
+ int CP_System_GetDisplayWidth(void)
 {
 	return _CORE.native_width;
 }
 
-CP_API int CP_System_GetDisplayHeight(void)
+ int CP_System_GetDisplayHeight(void)
 {
 	return _CORE.native_height;
 }
 
-CP_API int CP_System_GetDisplayRefreshRate(void)
+ int CP_System_GetDisplayRefreshRate(void)
 {
 	return glfwGetVideoMode(glfwGetPrimaryMonitor())->refreshRate;
 }
 
-CP_API HWND CP_System_GetWindowHandle(void)
+ HWND CP_System_GetWindowHandle(void)
 {
 	return _CORE.hwnd;
 }
 
-CP_API void CP_System_SetWindowTitle(const char* title)
+ void CP_System_SetWindowTitle(const char* title)
 {
 	glfwSetWindowTitle(_CORE.window, title);
 }
 
-CP_API CP_BOOL CP_System_GetWindowFocus(void)
+ bool CP_System_GetWindowFocus(void)
 {
 	return glfwGetWindowAttrib(_CORE.window, GLFW_FOCUSED);
 }
 
-CP_API void CP_System_ShowCursor(CP_BOOL show)
+ void CP_System_ShowCursor(CP_BOOL show)
 {
 	glfwSetInputMode(_CORE.window, GLFW_CURSOR, show ? GLFW_CURSOR_NORMAL : GLFW_CURSOR_HIDDEN);
 }
 
-CP_API unsigned CP_System_GetFrameCount(void)
+ unsigned CP_System_GetFrameCount(void)
 {
 	return _frameCount;
 }
 
-CP_API float CP_System_GetFrameRate(void)
+ float CP_System_GetFrameRate(void)
 {
 	return (float)(1.0 / _frametime);
 }
 
-CP_API void CP_System_SetFrameRate(float fps)
+ void CP_System_SetFrameRate(float fps)
 {
 	_frametimeTarget = 1.0 / fps; // seconds per frame
 }
 
-CP_API float CP_System_GetDt(void)
+ float CP_System_GetDt(void)
 {
 	return (float)_frametime;
 }
 
-CP_API float CP_System_GetMillis(void)
+ float CP_System_GetMillis(void)
 {
 	return (float)(glfwGetTime() * 1000.0);
 }
 
-CP_API float CP_System_GetSeconds(void)
+ float CP_System_GetSeconds(void)
 {
 	return (float)glfwGetTime();
 }
@@ -305,8 +301,8 @@ void CP_Initialize(void)
 	GetDrawInfo()->rect_mode = CP_POSITION_CENTER;
 	GetDrawInfo()->ellipse_mode = CP_POSITION_CENTER;
 	GetDrawInfo()->image_mode = CP_POSITION_CENTER;
-	GetDrawInfo()->fill = TRUE;
-	GetDrawInfo()->stroke = TRUE;
+	GetDrawInfo()->fill = true;
+	GetDrawInfo()->stroke = true;
 
 	// Initialize GLFW
 	if (!glfwInit()) {
@@ -343,8 +339,8 @@ void CP_Initialize(void)
 		glfwTerminate();
 	}
 
-	_CORE.hwnd = glfwGetWin32Window(_CORE.window);
-
+	//_CORE.hwnd = glfwGetWin32Window(_CORE.window);
+    
 	glfwMakeContextCurrent(_CORE.window);
 	gladLoadGL();
 	_CORE.nvg = nvgCreateGL3(NVG_ANTIALIAS | NVG_STENCIL_STROKES | NVG_DEBUG);
@@ -466,7 +462,7 @@ void CP_FrameStart(void)
 
 	if (_deferredSizeChange)
 	{
-		_deferredSizeChange = FALSE;
+		_deferredSizeChange = false;
 		CP_DeferredSetWindowSizeInternal(_deferredWidth, _deferredHeight, _deferredFullscreen);
 	}
 
@@ -551,7 +547,7 @@ void CP_UpdateFrameTime(void)
 
 void CP_SetWindowSizeInternal(int new_width, int new_height, bool isFullscreen)
 {
-	_deferredSizeChange = TRUE;
+	_deferredSizeChange = true;
 	_deferredWidth = new_width;
 	_deferredHeight = new_height;
 	_deferredFullscreen = isFullscreen;
@@ -612,3 +608,4 @@ void CP_DeferredSetWindowSizeInternal(int new_width, int new_height, bool isFull
 	// update openGL frame size
 	glViewport(0, 0, _CORE.canvas_width, _CORE.canvas_height);
 }
+*/

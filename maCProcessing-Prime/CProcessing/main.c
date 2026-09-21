@@ -9,41 +9,32 @@
 // documentation link:
 // https://github.com/DigiPen-Faculty/CProcessing/wiki
 //
-// Copyright © 2020 DigiPen, All rights reserved.
+// Copyright © 2026 DigiPen, All rights reserved.
 //---------------------------------------------------------
 
 #include "cprocessing.h"
 
-// use CP_Engine_SetNextGameState to specify this function as the initialization function
-// this function will be called once at the beginning of the program
+/*
 void game_init(void)
 {
     CP_System_SetWindowSize(1024, 768);
+}
+
+void game_update(void)
+{
+   
+}
+
+void game_exit(void)
+{
     
 }
 
-// use CP_Engine_SetNextGameState to specify this function as the update function
-// this function will be called repeatedly every frame
-void game_update(void)
-{
-    CP_Color backgroundColor = CP_Color_Create(0, 0, 0, 255);
-    CP_Graphics_ClearBackground(backgroundColor);
-
-}
-
-// use CP_Engine_SetNextGameState to specify this function as the exit function
-// this function will be called once just before leaving the current gamestate
-void game_exit(void)
-{
-    // shut down the gamestate and cleanup any dynamic memory
-}
-
-// main() the starting point for the program
-// CP_Engine_SetNextGameState() tells CProcessing which functions to use for init, update and exit
-// CP_Engine_Run() is the core function that starts the simulation
+*/
 int main(void)
 {
-    CP_Engine_SetNextGameState(game_init, game_update, game_exit);
-    CP_Engine_Run();
+    //CP_Engine_SetNextGameState(game_init, game_update, game_exit);
+    //CP_Engine_Run();
     return 0;
 }
+

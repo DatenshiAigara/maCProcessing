@@ -3,7 +3,7 @@
 // author:	Daniel Hamilton, Justin Chambers
 // brief:	Text functions for loading fonts and drawing text
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
@@ -19,6 +19,12 @@
 //------------------------------------------------------------------------------
 // Defines and Internal Variables:
 //------------------------------------------------------------------------------
+
+#ifdef __APPLE__
+#include <sys/syslimits.h>
+#endif
+/*
+#define strcpy_s strcpy
 
 #define FONT_LOAD_ERROR -1
 #define CP_INITIAL_FONT_COUNT 16
@@ -71,13 +77,13 @@ static CP_Font CP_Font_LoadInternal(const char* filepath, bool fromMemory, unsig
 		return NULL;
 	}
 
-	new_font->load_error = FALSE;
+	new_font->load_error = false;
 	new_font->handle = -1;
-	strcpy_s(new_font->filepath, MAX_PATH, filepath);
+	strcpy_s(new_font->filepath,  filepath);
 
 	if (!CORE || !CORE->nvg)
 	{
-		new_font->load_error = TRUE;
+		new_font->load_error = true;
 		free(new_font);
 		return NULL;
 	}
@@ -93,12 +99,12 @@ static CP_Font CP_Font_LoadInternal(const char* filepath, bool fromMemory, unsig
 
 	if (new_font->handle == FONT_LOAD_ERROR)
 	{
-		new_font->load_error = TRUE;
+		new_font->load_error = true;
 		free(new_font);
 		return NULL;
 	}
 
-	new_font->load_error = FALSE;
+	new_font->load_error = false;
 
 	// Store a pointer to the font
 	CP_Font_AddHandle(new_font);
@@ -140,17 +146,17 @@ void CP_Text_Shutdown(void)
 // Library Functions:
 //------------------------------------------------------------------------------
 
-CP_API CP_Font CP_Font_GetDefault(void)
+ CP_Font CP_Font_GetDefault(void)
 {
 	return _default_font;
 }
 
-CP_API CP_Font CP_Font_Load(const char* filepath)
+ CP_Font CP_Font_Load(const char* filepath)
 {
 	return CP_Font_LoadInternal(filepath, false, NULL, 0, 0);
 }
 
-CP_API void CP_Font_Free(CP_Font* font)
+ void CP_Font_Free(CP_Font* font)
 {
 	if (font == NULL || *font == NULL)
 	{
@@ -186,7 +192,7 @@ CP_API void CP_Font_Free(CP_Font* font)
 	// TODO: handle error - we reached the end of the list without finding the image
 }
 
-CP_API void CP_Font_Set(CP_Font font)
+ void CP_Font_Set(CP_Font font)
 {
 	CP_CorePtr CORE = GetCPCore();
 
@@ -198,7 +204,7 @@ CP_API void CP_Font_Set(CP_Font font)
 	nvgFontFaceId(CORE->nvg, font->handle);
 }
 
-CP_API void CP_Font_DrawText(const char* text, float x, float y)
+ void CP_Font_DrawText(const char* text, float x, float y)
 {
 	CP_CorePtr CORE = GetCPCore();
 
@@ -210,7 +216,7 @@ CP_API void CP_Font_DrawText(const char* text, float x, float y)
 	nvgText(CORE->nvg, x, y, text, NULL);
 }
 
-CP_API void CP_Font_DrawTextBox(const char* text, float x, float y, float rowWidth)
+ void CP_Font_DrawTextBox(const char* text, float x, float y, float rowWidth)
 {
 	CP_CorePtr CORE = GetCPCore();
 
@@ -221,3 +227,4 @@ CP_API void CP_Font_DrawTextBox(const char* text, float x, float y, float rowWid
 
 	nvgTextBox(CORE->nvg, x, y, rowWidth, text, NULL);
 }
+*/

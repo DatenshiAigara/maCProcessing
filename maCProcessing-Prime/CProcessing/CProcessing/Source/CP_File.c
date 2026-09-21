@@ -25,15 +25,15 @@
 #include <sys/stat.h> // stat
 //#include <direct.h>   // _mkdir
 
-
+/*
 //------------------------------------------------------------------------------
 // Defines:
 //------------------------------------------------------------------------------
 
-/* Values for the second argument to access.
-These may be OR'd together.  */
-#define R_OK    4       /* Test for read permission.  */
-#define W_OK    2       /* Test for write permission.  */
+// Values for the second argument to access.
+//These may be OR'd together.
+#define R_OK    4       // Test for read permission.
+#define W_OK    2       // Test for write permission.
 
 //------------------------------------------------------------------------------
 // Private Consts:
@@ -78,7 +78,7 @@ int file_dirExists(const char * dirpath) {
     int err = stat(dirpath, &s);
     if (-1 == err) {
         if(ENOENT == errno) {
-            /* does not exist */
+            // does not exist
             return CP_ERROR_NOT_FOUND;
         } else {
             // stat error
@@ -88,10 +88,10 @@ int file_dirExists(const char * dirpath) {
         }
     } else {
         if(S_ISDIR(s.st_mode)) {
-            /* it's a dir */
+            // it's a dir
             return CP_OK;
         } else {
-            /* exists but is no dir */
+            // exists but is no dir
             return CP_ERROR_NOT_DIR;
         }
     }
@@ -108,3 +108,4 @@ int file_makedir(const char * dirpath)
         return CP_ERROR_FAILED;
     }
 }
+*/

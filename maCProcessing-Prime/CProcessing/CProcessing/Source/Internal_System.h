@@ -15,13 +15,6 @@
 extern "C" {
 #endif
 
-#include "glad.h"
-#include "glfw3.h"
-
-// NanoVG
-#define NANOVG_GL3_IMPLEMENTATION
-#include "nanovg.h"
-
 #include "Internal_Color.h"
 #include "Internal_File.h"
 #include "Internal_Image.h"
@@ -31,6 +24,8 @@ extern "C" {
 #include "Internal_Noise.h"
 #include "Internal_Sound.h"
 #include "Internal_Text.h"
+
+/*
 
 typedef struct GLFWwindow GLFWwindow;
 typedef struct NVGcontext NVGcontext;
@@ -91,6 +86,8 @@ void CP_FrameRate_FrameStart(void);
 void CP_FrameRate_FrameEnd(void);
 void CP_UpdateFrameTime(void);
 void CP_IncFrameCount(void);
+
+*/
 
 #ifdef __cplusplus
 }

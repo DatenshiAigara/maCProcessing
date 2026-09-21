@@ -16,7 +16,7 @@
 //------------------------------------------------------------------------------
 // Defines and Internal Variables:
 //------------------------------------------------------------------------------
-
+/*
 // define USE_XORSHIFT to use the faster and more complete RNG
 #define USE_XORSHIFT
 
@@ -156,7 +156,7 @@ float CP_Random_Gaussian(void)
 // --------------------------
 // TODO:  Move these tests to a test framework 
 
-/*
+
 
 void perfTest_RAND()
 {

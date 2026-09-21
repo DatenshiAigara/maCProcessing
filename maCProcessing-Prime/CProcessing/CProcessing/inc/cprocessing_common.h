@@ -12,7 +12,8 @@
 extern "C"
 {
 #endif
-
+/*
+ 
 //---------------------------------------------------------
 // Cleanup Warnings 
 
@@ -357,6 +358,7 @@ typedef enum CP_GAMEPAD
 	GAMEPAD_Y
 } CP_GAMEPAD;
 
+*/
 
 #ifdef __cplusplus
 }

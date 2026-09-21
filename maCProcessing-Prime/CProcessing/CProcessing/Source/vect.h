@@ -2,6 +2,7 @@
 #ifndef VECT_H
 #define VECT_H
 
+
 /*
  * vect.h -- type-safe generic dynamic array
  * made by sixthgear. BSD Licenced.

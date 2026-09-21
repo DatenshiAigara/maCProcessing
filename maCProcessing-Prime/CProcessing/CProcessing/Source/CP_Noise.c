@@ -13,6 +13,7 @@
 #include "cprocessing.h"
 #include "Internal_Noise.h"
 
+/*
 #define permutationArraySize 256
 int repeatNoise = -1;
 
@@ -171,4 +172,4 @@ float CP_Random_Noise(float x, float y, float z)
 	y2 = lerp(x1, x2, v);
 
 	return (float)((lerp(y1, y2, w) + 1) / 2);	// For convenience we bound it to 0 - 1 (theoretical min/max before is -1 - 1)
-}
+}*/

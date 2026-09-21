@@ -14,7 +14,6 @@
 #include "cprocessing.h"
 #include "Internal_Sound.h"
 #include "vect.h"
-#include "soloud_c.h"
 #ifdef __APPLE__
 #include <sys/syslimits.h>
 #endif
@@ -23,6 +22,7 @@
 // Defines and Internal Variables:
 //------------------------------------------------------------------------------
 
+/*
 #define CP_INITIAL_SOUND_CAPACITY   12
 #define __declspec(input)
 #define strcpy_s strcpy
@@ -359,4 +359,4 @@ CP_API float CP_Sound_GetGroupPitch(CP_SOUND_GROUP group)
 		return voice_groups[group].pitch;
 	}
 	return 1.0f;
-}
+} */

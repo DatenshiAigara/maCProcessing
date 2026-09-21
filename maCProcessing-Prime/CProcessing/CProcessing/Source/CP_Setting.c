@@ -3,7 +3,7 @@
 // author:	Daniel Hamilton
 // brief:	Basic settings for frame time and various rendering states 
 //
-// Copyright © 2019 DigiPen, All rights reserved.
+// Copyright ï¿½ 2019 DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
@@ -13,6 +13,7 @@
 #include "cprocessing.h"
 #include "Internal_System.h"
 #include <stdbool.h>
+#include <string.h>
 
 //------------------------------------------------------------------------------
 // Defines:
@@ -37,63 +38,63 @@
 //------------------------------------------------------------------------------
 // Private Function Declarations:
 //------------------------------------------------------------------------------
-
+/*
 int isValidPositionMode(CP_POSITION_MODE mode)
 {
-	return (mode == CP_POSITION_CENTER || mode == CP_POSITION_CORNER) ? TRUE : FALSE;
+	return (mode == CP_POSITION_CENTER || mode == CP_POSITION_CORNER) ? true : false;
 }
 
 //------------------------------------------------------------------------------
 // Public Functions:
 //------------------------------------------------------------------------------
 
-CP_API void CP_Settings_Fill(CP_Color c)
+ void CP_Settings_Fill(CP_Color c)
 {
 	nvgFillColor(GetCPCore()->nvg, nvgRGBA(c.r, c.g, c.b, c.a));
 
 	// Enable fill
-	GetDrawInfo()->fill = TRUE;
+	GetDrawInfo()->fill = true;
 }
 
-CP_API void CP_Settings_NoFill(void)
+ void CP_Settings_NoFill(void)
 {
-	GetDrawInfo()->fill = FALSE;
+	GetDrawInfo()->fill = false;
 }
 
-CP_API void CP_Settings_Stroke(CP_Color c)
+ void CP_Settings_Stroke(CP_Color c)
 {
 	nvgStrokeColor(GetCPCore()->nvg, nvgRGBA(c.r, c.g, c.b, c.a));
 
 	// Enable stroke
-	GetDrawInfo()->stroke = TRUE;
+	GetDrawInfo()->stroke = true;
 }
 
-CP_API void CP_Settings_NoStroke(void)
+ void CP_Settings_NoStroke(void)
 {
-	GetDrawInfo()->stroke = FALSE;
+	GetDrawInfo()->stroke = false;
 }
 
-CP_API void CP_Settings_StrokeWeight(float weight)
+ void CP_Settings_StrokeWeight(float weight)
 {
 	nvgStrokeWidth(GetCPCore()->nvg, weight);
 }
 
-CP_API void CP_Settings_Tint(CP_Color c)
+ void CP_Settings_Tint(CP_Color c)
 {
 	nvgTintColor(GetCPCore()->nvg, nvgRGBA(c.r, c.g, c.b, c.a));
 }
 
-CP_API void CP_Settings_NoTint(void)
+ void CP_Settings_NoTint(void)
 {
 	CP_Settings_Tint(CP_Color_Create(255, 255, 255, 255));
 }
 
-CP_API void CP_Settings_AntiAlias(CP_BOOL antiAlias)
+ void CP_Settings_AntiAlias(CP_BOOL antiAlias)
 {
 	nvgShapeAntiAlias(GetCPCore()->nvg, antiAlias);
 }
 
-CP_API void CP_Settings_LineCapMode(CP_LINE_CAP_MODE capMode)
+ void CP_Settings_LineCapMode(CP_LINE_CAP_MODE capMode)
 {
 	if (capMode == CP_LINE_CAP_BUTT ||
 		capMode == CP_LINE_CAP_ROUND ||
@@ -103,7 +104,7 @@ CP_API void CP_Settings_LineCapMode(CP_LINE_CAP_MODE capMode)
 	}
 }
 
-CP_API void CP_Settings_LineJointMode(CP_LINE_JOINT_MODE jointMode)
+ void CP_Settings_LineJointMode(CP_LINE_JOINT_MODE jointMode)
 {
 	if (jointMode == CP_LINE_JOINT_ROUND ||
 		jointMode == CP_LINE_JOINT_BEVEL ||
@@ -113,25 +114,25 @@ CP_API void CP_Settings_LineJointMode(CP_LINE_JOINT_MODE jointMode)
 	}
 }
 
-CP_API void CP_Settings_RectMode(CP_POSITION_MODE mode)
+ void CP_Settings_RectMode(CP_POSITION_MODE mode)
 {
 	if (isValidPositionMode(mode))
 		GetDrawInfo()->rect_mode = mode;
 }
 
-CP_API void CP_Settings_EllipseMode(CP_POSITION_MODE mode)
+ void CP_Settings_EllipseMode(CP_POSITION_MODE mode)
 {
 	if (isValidPositionMode(mode))
 		GetDrawInfo()->ellipse_mode = mode;
 }
 
-CP_API void CP_Settings_ImageMode(CP_POSITION_MODE mode)
+ void CP_Settings_ImageMode(CP_POSITION_MODE mode)
 {
 	if (isValidPositionMode(mode))
 		GetDrawInfo()->image_mode = mode;
 }
 
-CP_API void CP_Settings_BlendMode(CP_BLEND_MODE blendMode)
+ void CP_Settings_BlendMode(CP_BLEND_MODE blendMode)
 {
 	CP_CorePtr CORE = GetCPCore();
 	if (!CORE || !CORE->nvg)
@@ -161,24 +162,24 @@ CP_API void CP_Settings_BlendMode(CP_BLEND_MODE blendMode)
 	}
 }
 
-CP_API void CP_Settings_ImageFilterMode(CP_IMAGE_FILTER_MODE filterMode)
+ void CP_Settings_ImageFilterMode(CP_IMAGE_FILTER_MODE filterMode)
 {
 	nvgTextureFilter(GetCPCore()->nvg, filterMode);
 }
 
-CP_API void CP_Settings_ImageWrapMode(CP_IMAGE_WRAP_MODE wrapMode)
+ void CP_Settings_ImageWrapMode(CP_IMAGE_WRAP_MODE wrapMode)
 {
 	nvgTextureWrap(GetCPCore()->nvg, wrapMode);
 }
 
-CP_API void CP_Settings_TextSize(float size)
+ void CP_Settings_TextSize(float size)
 {
 	CP_CorePtr CORE = GetCPCore();
 	if (!CORE || !CORE->nvg) return;
 	nvgFontSize(CORE->nvg, size);
 }
 
-CP_API void CP_Settings_TextAlignment(CP_TEXT_ALIGN_HORIZONTAL h, CP_TEXT_ALIGN_VERTICAL v)
+ void CP_Settings_TextAlignment(CP_TEXT_ALIGN_HORIZONTAL h, CP_TEXT_ALIGN_VERTICAL v)
 {
 	int flags = h | v;
 	CP_CorePtr CORE = GetCPCore();
@@ -186,7 +187,7 @@ CP_API void CP_Settings_TextAlignment(CP_TEXT_ALIGN_HORIZONTAL h, CP_TEXT_ALIGN_
 	nvgTextAlign(CORE->nvg, flags);
 }
 
-CP_API void CP_Settings_Scale(float xScale, float yScale)
+ void CP_Settings_Scale(float xScale, float yScale)
 {
 	nvgScale(GetCPCore()->nvg, xScale, yScale);
 
@@ -194,7 +195,7 @@ CP_API void CP_Settings_Scale(float xScale, float yScale)
 	CP_Input_SetWorldMouseDirty();
 }
 
-CP_API void CP_Settings_Rotate(float degrees)
+ void CP_Settings_Rotate(float degrees)
 {
 	nvgRotate(GetCPCore()->nvg, CP_Math_Radians(degrees));
 
@@ -202,7 +203,7 @@ CP_API void CP_Settings_Rotate(float degrees)
 	CP_Input_SetWorldMouseDirty();
 }
 
-CP_API void CP_Settings_Translate(float x, float y)
+ void CP_Settings_Translate(float x, float y)
 {
 	nvgTranslate(GetCPCore()->nvg, x, y);
 
@@ -210,7 +211,7 @@ CP_API void CP_Settings_Translate(float x, float y)
 	CP_Input_SetWorldMouseDirty();
 }
 
-CP_API void CP_Settings_ApplyMatrix(CP_Matrix m)
+ void CP_Settings_ApplyMatrix(CP_Matrix m)
 {
 	nvgTransform(GetCPCore()->nvg, m.m00, m.m10, m.m01, m.m11, m.m02, m.m12);
 
@@ -218,7 +219,7 @@ CP_API void CP_Settings_ApplyMatrix(CP_Matrix m)
 	CP_Input_SetWorldMouseDirty();
 }
 
-CP_API void CP_Settings_ResetMatrix(void)
+ void CP_Settings_ResetMatrix(void)
 {
 	nvgResetTransform(GetCPCore()->nvg);
 
@@ -226,7 +227,7 @@ CP_API void CP_Settings_ResetMatrix(void)
 	CP_Input_SetWorldMouseDirty();
 }
 
-CP_API void CP_Settings_Save(void)
+ void CP_Settings_Save(void)
 {
 	CP_CorePtr CORE = GetCPCore();
 	if (!CORE || !CORE->nvg)
@@ -242,7 +243,7 @@ CP_API void CP_Settings_Save(void)
 	CORE->nstates++;
 }
 
-CP_API void CP_Settings_Restore(void)
+ void CP_Settings_Restore(void)
 {
 	CP_CorePtr CORE = GetCPCore();
 	if (!CORE || !CORE->nvg)
@@ -254,4 +255,4 @@ CP_API void CP_Settings_Restore(void)
 	if (CORE->nstates <= 1)
 		return;
 	CORE->nstates--;
-}
+}*/

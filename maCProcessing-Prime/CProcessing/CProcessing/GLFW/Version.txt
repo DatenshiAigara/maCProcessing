@@ -1,5 +1,0 @@
-GLFW Version
-3.5.1
-
-Date
-September, 2026

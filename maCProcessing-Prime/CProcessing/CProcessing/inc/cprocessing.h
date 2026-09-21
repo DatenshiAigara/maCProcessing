@@ -49,7 +49,7 @@ extern "C"
 
 #include "cprocessing_common.h"
 
-#define __declspce(dllimport)
+/*
 
 //---------------------------------------------------------
 // ENGINE:
@@ -57,7 +57,7 @@ extern "C"
 void CP_Engine_Run(void);
 void CP_Engine_Terminate(void);
 void CP_Engine_SetNextGameState(FunctionPtr init, FunctionPtr update, FunctionPtr exit);
-void CP_Engine_SetNextGameStateForcedz(FunctionPtr init, FunctionPtr update, FunctionPtr exit);
+void CP_Engine_SetNextGameStateForced(FunctionPtr init, FunctionPtr update, FunctionPtr exit);
 void CP_Engine_SetPreUpdateFunction(FunctionPtr preUpdateFunction);
 void CP_Engine_SetPostUpdateFunction(FunctionPtr postUpdateFunction);
 
@@ -288,6 +288,8 @@ float CP_Random_Gaussian(void);
 float CP_Random_Noise(float x, float y, float z);
 void CP_Random_NoiseSeed(int seed);
 
+ */
+ 
 #ifdef __cplusplus
 }
 #endif

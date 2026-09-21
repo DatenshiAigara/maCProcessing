@@ -15,11 +15,10 @@
 #include <math.h>
 #include "cprocessing.h"
 #include "Internal_System.h"
-#include <InputMethodKit/IMKInputController.h>
 
 #define memcpy_s memcpy
 
-
+/*
 //------------------------------------------------------------------------------
 // Defines and Internal Variables:
 //------------------------------------------------------------------------------
@@ -666,3 +665,4 @@ CP_BOOL CP_Input_MouseDragged(CP_MOUSE button)
 {
 	return CP_Input_IsValidGamepadIndex(gamepadIndex) && gamepad_connected[gamepadIndex];
 }
+*/
