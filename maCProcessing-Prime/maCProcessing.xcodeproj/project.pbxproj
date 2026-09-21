@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7EA124E630611EF100DC7B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244D306119FE00DC7B1D /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		7EA124E730611EF100DC7B1D /* Foundation.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7EA1244D306119FE00DC7B1D /* Foundation.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7EA124E830611EF300DC7B1D /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244F30611A0500DC7B1D /* Metal.framework */; };
-		7EA124E930611EF300DC7B1D /* Metal.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7EA1244F30611A0500DC7B1D /* Metal.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7EA124EA30611EF400DC7B1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1245130611A0C00DC7B1D /* QuartzCore.framework */; };
-		7EA124EB30611EF400DC7B1D /* QuartzCore.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 7EA1245130611A0C00DC7B1D /* QuartzCore.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7EA125D5306121E100DC7B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244D306119FE00DC7B1D /* Foundation.framework */; };
+		7EA125D6306121E900DC7B1D /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1244F30611A0500DC7B1D /* Metal.framework */; };
+		7EA125D7306121F100DC7B1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1245130611A0C00DC7B1D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,19 +21,6 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
-		};
-		7EEB94383059EEE300EF37E4 /* Embed Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7EA124E930611EF300DC7B1D /* Metal.framework in Embed Libraries */,
-				7EA124E730611EF100DC7B1D /* Foundation.framework in Embed Libraries */,
-				7EA124EB30611EF400DC7B1D /* QuartzCore.framework in Embed Libraries */,
-			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -60,9 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA124E630611EF100DC7B1D /* Foundation.framework in Frameworks */,
-				7EA124E830611EF300DC7B1D /* Metal.framework in Frameworks */,
-				7EA124EA30611EF400DC7B1D /* QuartzCore.framework in Frameworks */,
+				7EA125D7306121F100DC7B1D /* QuartzCore.framework in Frameworks */,
+				7EA125D6306121E900DC7B1D /* Metal.framework in Frameworks */,
+				7EA125D5306121E100DC7B1D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +90,6 @@
 				7E5F944330547CBC00E8730E /* Sources */,
 				7E5F944430547CBC00E8730E /* Frameworks */,
 				7E5F944530547CBC00E8730E /* CopyFiles */,
-				7EEB94383059EEE300EF37E4 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -220,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CProcessing/metal-cpp";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CProcessing/CProcessing/metal-cpp/";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -278,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CProcessing/metal-cpp";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/CProcessing/CProcessing/metal-cpp/";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MTL_ENABLE_DEBUG_INFO = NO;

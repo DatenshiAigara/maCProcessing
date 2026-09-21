@@ -1,12 +1,15 @@
 //------------------------------------------------------------------------------
 // file:    Internal_Graphics.h
-// author:    Hazel Benting
-// brief:    Manipulate and draw basic vector shapes
+// author:  Hazel Benting
+// brief:   Import List for Metal API
 //
 // Copyright � 2026DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
 
-/*
+#include<Foundation/Foundation.h>
+#include<QuartzCore/CAMetalLayer.h>
+#include<QuartzCore/CAMetalDisplayLink.h>
+#include<QuartzCore/CARenderer.h>
 #include<Metal/Metal.h>
 #include<Metal/MTLHeap.h>
 #include<Metal/MTLEvent.h>
@@ -91,4 +94,4 @@
 #include<MetalKit/MTKView.h>
 #include<MetalKit/MTKModel.h>
 #include<MetalKit/MTKDefines.h>
-#include<MetalKit/MTKTextureLoader.h> */
+#include<MetalKit/MTKTextureLoader.h>
