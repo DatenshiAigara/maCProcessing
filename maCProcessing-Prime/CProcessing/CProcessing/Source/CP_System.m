@@ -12,8 +12,8 @@
 #define kMaxFramesInFlight 3
 
 // Internal information
-static bool _isInitialized = false;
-static bool _isRunning = true;
+//static bool _isInitialized = false;
+//static bool _isRunning = true;
 CP_BOOL _deferredSizeChange = false;
 int _deferredWidth = 0;
 int _deferredHeight = 0;

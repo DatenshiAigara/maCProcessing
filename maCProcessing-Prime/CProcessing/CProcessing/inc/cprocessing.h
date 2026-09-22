@@ -48,6 +48,7 @@ extern "C"
 #endif
 
 #include "cprocessing_common.h"
+#include <stdbool.h>
 
 //---------------------------------------------------------
 // ENGINE:

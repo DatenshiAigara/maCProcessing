@@ -12,7 +12,6 @@
 
 #include <stdlib.h>
 #include "cprocessing.h"
-#include "Internal_Image.h"
 #include "Internal_System.h"
 #include "vect.h"
 

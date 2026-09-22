@@ -34,6 +34,7 @@
 // Private Variables:
 //------------------------------------------------------------------------------
 
+/*
 // FrameRate Control
 static double StartingTime, EndingTime, ElapsedSeconds;
 static double _frametimeTarget = 0.033333;
@@ -120,7 +121,7 @@ int getframeCount()
 {
 	return _frameCount;
 }
-
+*/
 //------------------------------------------------------------------------------
 // Private Functions:
 //------------------------------------------------------------------------------

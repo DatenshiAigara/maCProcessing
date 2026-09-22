@@ -5,32 +5,11 @@
 //
 // Copyright � 2026DigiPen, All rights reserved.
 //------------------------------------------------------------------------------
+#pragma once
 
 @import AppKit;
 @import MetalKit;
 @import Metal;
-
-//Set Up for Metal Shaders
-/*#ifndef ShaderTypes_h
-#define ShaderTypes_h
-
-typedef enum InputBufferIndex {
-    
-    InputBufferIndexforVertexData = 0,
-    
-    InputBufferIndexForViewportSize = 1,
-    
-} InputBufferIndex;
-
-typedef struct {
-    
-    simd_float2 position;
-    
-    simd_float4 color;
-    
-} VertexData;
-
-#endif */
 
 #define PlatformViewController NSViewController
 
@@ -54,10 +33,9 @@ typedef struct {
 
 @end
 
-//Check if OS is equal to target to see if Metal4 Support is enabled
 #if (!TARGET_OS_SIMULATOR)
 @interface Metal4Renderer : NSObject<Renderer>
-    
+
 //Create device based on renderer for MTL4 specific commands if supported
 @property (nonnull, readonly) id<MTLDevice> device;
 
@@ -103,7 +81,7 @@ typedef struct {
 @end
 
 #else
-
+/*
 @interface MetalRenderer : NSObject<Renderer>
 
 @property (nonnull, readonly) id<MTLDevice> device;
@@ -120,8 +98,40 @@ typedef struct {
 
 - (nonnull id<MTLRenderPipelineState>) compileRenderPipeline:(MTLPixelFormat) colorPixelFormat;
 
-@end
+@end */
 
+#endif
+ 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include <simd/simd.h>
+
+//Set Up for Metal Shaders
+#ifndef ShaderTypes_h
+#define ShaderTypes_h
+
+typedef enum InputBufferIndex {
+    
+    InputBufferIndexforVertexData = 0,
+    
+    InputBufferIndexForViewportSize = 1,
+    
+} InputBufferIndex;
+
+typedef struct {
+    
+    simd_float2 position;
+    
+    simd_float4 color;
+    
+} VertexData;
+
+#endif
+
+#ifdef __cplusplus
+extern "C" {
 #endif
 
 /*

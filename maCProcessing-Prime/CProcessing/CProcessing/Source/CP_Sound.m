@@ -12,7 +12,7 @@
 
 #include <stdbool.h>
 #include "cprocessing.h"
-#include "Internal_Sound.h"
+#include "Internal_System.h"
 #include "vect.h"
 #ifdef __APPLE__
 #include <sys/syslimits.h>

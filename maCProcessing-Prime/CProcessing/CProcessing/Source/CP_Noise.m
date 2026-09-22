@@ -11,7 +11,7 @@
 #include <math.h>
 #include <string.h>
 #include "cprocessing.h"
-#include "Internal_Noise.h"
+#include "Internal_System.h"
 
 /*
 #define permutationArraySize 256
