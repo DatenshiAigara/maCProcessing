@@ -25,6 +25,7 @@ extern "C" {
 #include "Internal_Sound.h"
 #include "Internal_Text.h"
 #include "Internal_Metal.h"
+#include "Internal_Graphics.h"
 
 #define CP_MAX_STATES 32
 

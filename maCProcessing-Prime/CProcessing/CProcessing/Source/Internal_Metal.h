@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-// file:    Internal_Graphics.h
+// file:    Internal_Metal.h
 // author:  Hazel Benting
 // brief:   Set-Up for Metal API
 //
@@ -81,7 +81,7 @@
 @end
 
 #else
-/*
+
 @interface MetalRenderer : NSObject<Renderer>
 
 @property (nonnull, readonly) id<MTLDevice> device;
@@ -98,40 +98,8 @@
 
 - (nonnull id<MTLRenderPipelineState>) compileRenderPipeline:(MTLPixelFormat) colorPixelFormat;
 
-@end */
+@end
 
-#endif
- 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-#include <simd/simd.h>
-
-//Set Up for Metal Shaders
-#ifndef ShaderTypes_h
-#define ShaderTypes_h
-
-typedef enum InputBufferIndex {
-    
-    InputBufferIndexforVertexData = 0,
-    
-    InputBufferIndexForViewportSize = 1,
-    
-} InputBufferIndex;
-
-typedef struct {
-    
-    simd_float2 position;
-    
-    simd_float4 color;
-    
-} VertexData;
-
-#endif
-
-#ifdef __cplusplus
-extern "C" {
 #endif
 
 /*
