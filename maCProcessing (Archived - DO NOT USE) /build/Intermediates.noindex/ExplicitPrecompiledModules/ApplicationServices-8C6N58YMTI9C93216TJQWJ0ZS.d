@@ -1,0 +1,20 @@
+moduledependenciestarget: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/_DarwinFoundation1-2VF5U1EPKEJSDO0Q4G7RKH3K2.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinFoundation1.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/CoreServices-A054Q8P19O7CFPSS3JWL9SNCQ.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinFoundation2.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreServices.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/CoreText-17MBJKFS94U5FQ2JRPKMJH2AQ.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreGraphics.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreText.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/ColorSync-M2MMTAG7O5G5ERK4Y91S9KZK.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ColorSync.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/ImageIO-VCSMYC11KJCRRGNLK3VDXXSC.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ImageIO.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/Foundation-7R458HNTVYUUCMWO6GHVWILW4.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/CUPS-1RSPDYVLCCD5U0X09JCJTUISW.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/cups.modulemap

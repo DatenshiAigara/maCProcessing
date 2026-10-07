@@ -1,0 +1,11 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Darwin.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/tinycthread.m \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/tinycthread.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/_DarwinFoundation2-302BSIVZ6S2E8WUMJCR96HPC0.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinFoundation1.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinFoundation2.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/_DarwinFoundation3-1ZL62BT95Z1RQ4O96DDI892SY.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinFoundation3.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/Darwin-4GYQXOQU7ACE7VR1Y6IRJC3NF.pcm

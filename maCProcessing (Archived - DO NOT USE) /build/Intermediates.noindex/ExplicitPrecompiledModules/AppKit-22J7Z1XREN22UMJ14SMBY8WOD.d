@@ -1,0 +1,22 @@
+moduledependenciestarget: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Darwin.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/Foundation-5KQ46J984J75VLSZQP6XL1216.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinFoundation1.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/IOKit.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreGraphics.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/ApplicationServices-8FLDDXY5O6J3TGAAPQCOJ0ZEJ.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreText.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/ApplicationServices.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/CoreData-31F3ASBYUTZRJ4V6P2BD39D22.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreData.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/CoreImage-C8E3DRJWDH0MCSPUKH5BQ87ZK.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreImage.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/Symbols-BWFQI4788JJ92F2S4EG2F3RBK.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Symbols.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/QuartzCore-6EV9GKUCWR5603XTLVEJ36WFR.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/QuartzCore.framework/Modules/module.modulemap

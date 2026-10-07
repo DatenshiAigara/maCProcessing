@@ -1,0 +1,29 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/CP_Math.m \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/_DarwinFoundation1-5BG8J8RGPS4RZD5A4HFNPR61L.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinFoundation1.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/inc/cprocessing.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/inc/cprocessing_common.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/_Builtin_stdbool-D2AWE43B3767EZ7NJZ2LU6KCI.pcm \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_System.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Color.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Graphics.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/simd-6DL03C2YQCZR0LUL8ARRYNLP0.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/DarwinFoundation2.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/simd/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_File.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Image.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Input.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Math.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Random.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Noise.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Sound.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Text.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/CProcessing/CProcessing/Source/Internal_Metal.h \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/AppKit-A67K51Q8P30N2FH88IM6NKLC3.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Metal.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Modules/module.modulemap \
+  /Users/samuel/Documents/GitHub/maCProcessing/maCProcessing-Prime/Build/Intermediates.noindex/ExplicitPrecompiledModules/MetalKit-71DWFXKPZT9AK8VQY20XH5UIU.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/MetalKit.framework/Modules/module.modulemap
