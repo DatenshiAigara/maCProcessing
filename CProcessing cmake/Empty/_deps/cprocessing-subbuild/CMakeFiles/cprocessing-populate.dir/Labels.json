@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/CMakeFiles/cprocessing-populate"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/CMakeFiles/cprocessing-populate.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/CMakeFiles/CMakeFiles/cprocessing-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/cprocessing-populate-prefix/src/cprocessing-populate-stamp/CMakeFiles/cprocessing-populate-build.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/cprocessing-populate-prefix/src/cprocessing-populate-stamp/CMakeFiles/cprocessing-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/cprocessing-populate-prefix/src/cprocessing-populate-stamp/CMakeFiles/cprocessing-populate-download.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/cprocessing-populate-prefix/src/cprocessing-populate-stamp/CMakeFiles/cprocessing-populate-install.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/cprocessing-populate-prefix/src/cprocessing-populate-stamp/CMakeFiles/cprocessing-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/cprocessing-populate-prefix/src/cprocessing-populate-stamp/CMakeFiles/cprocessing-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/cprocessing-populate-prefix/src/cprocessing-populate-stamp/CMakeFiles/cprocessing-populate-test.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-subbuild/cprocessing-populate-prefix/src/cprocessing-populate-stamp/CMakeFiles/cprocessing-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cprocessing-populate"
+		],
+		"name" : "cprocessing-populate"
+	}
+}

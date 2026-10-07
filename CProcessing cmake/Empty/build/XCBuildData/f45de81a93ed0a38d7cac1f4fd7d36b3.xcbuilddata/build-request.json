@@ -1,0 +1,79 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "037e1dbc2c877506437dd9b982b246c502cc675be61dc7e97c81f96540b18ac1"
+    },
+    {
+      "guid" : "037e1dbc2c877506437dd9b982b246c51ee5dc884b3abfad918b647475117253"
+    },
+    {
+      "guid" : "037e1dbc2c877506437dd9b982b246c5d755509311ff33d465631edcd169bba5"
+    },
+    {
+      "guid" : "037e1dbc2c877506437dd9b982b246c5755192b141e040d0ba4a17511336b2ac"
+    },
+    {
+      "guid" : "037e1dbc2c877506437dd9b982b246c5e0696475e409cecabab651b44d27ef6d"
+    },
+    {
+      "guid" : "037e1dbc2c877506437dd9b982b246c586a614356db21e96afce1e963ffad09e"
+    },
+    {
+      "guid" : "037e1dbc2c877506437dd9b982b246c55433dd13e2d83a1f0084c7e8b69eecfc"
+    }
+  ],
+  "containerPath" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/MyGame.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx27.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/samuel/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/samuel/Library/Developer/Xcode/DerivedData/MyGame-bnvtrlfjfqgdlbgbvofonofxklng/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/samuel/Library/Developer/Xcode/DerivedData/MyGame-bnvtrlfjfqgdlbgbvofonofxklng/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.Metal.32023.921.5 $(inherited)"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

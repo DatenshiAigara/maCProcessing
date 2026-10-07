@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'ALL_BUILD' in project 'glfw-populate'
+➜ Explicit dependency on target 'glfw-populate' in project 'glfw-populate'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'glfw-populate'
+Target 'glfw-populate' in project 'glfw-populate'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'glfw-populate'
+Target 'ZERO_CHECK' in project 'glfw-populate' (no dependencies)

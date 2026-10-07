@@ -1,0 +1,19 @@
+Target dependency graph (7 targets)
+Target 'update_mappings' in project 'MyGame'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'MyGame'
+Target 'ALL_BUILD' in project 'MyGame'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'MyGame'
+➜ Explicit dependency on target 'MyGame' in project 'MyGame'
+➜ Explicit dependency on target 'soloud' in project 'MyGame'
+➜ Explicit dependency on target 'CProcessing' in project 'MyGame'
+➜ Explicit dependency on target 'glfw' in project 'MyGame'
+Target 'MyGame' in project 'MyGame'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'MyGame'
+➜ Explicit dependency on target 'CProcessing' in project 'MyGame'
+Target 'CProcessing' in project 'MyGame'
+➜ Explicit dependency on target 'soloud' in project 'MyGame'
+➜ Explicit dependency on target 'glfw' in project 'MyGame'
+Target 'glfw' in project 'MyGame'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'MyGame'
+Target 'soloud' in project 'MyGame' (no dependencies)
+Target 'ZERO_CHECK' in project 'MyGame' (no dependencies)

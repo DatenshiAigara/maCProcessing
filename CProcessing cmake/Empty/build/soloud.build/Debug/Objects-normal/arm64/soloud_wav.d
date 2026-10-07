@@ -1,0 +1,19 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_filter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_fader.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_audiosource.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_bus.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_queue.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_error.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_wav.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_file.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/stb_vorbis.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/stb_vorbis.c \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_file_hack_on.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_file_hack_off.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/dr_mp3.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/dr_wav.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/dr_flac.h

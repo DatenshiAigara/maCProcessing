@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/download-glfw-populate.cmake;COMMAND;/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/verify-glfw-populate.cmake;COMMAND;/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/extract-glfw-populate.cmake
+source_dir=/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src
+work_dir=/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps
+url(s)=https://github.com/glfw/glfw/releases/download/3.5.1/glfw-3.5.1.zip
+hash=SHA256=ea79bc5feffc254c87291980c2d0bce9acebb68c4983b79f961dcd2cb8a611a0
+      no_extract=
+

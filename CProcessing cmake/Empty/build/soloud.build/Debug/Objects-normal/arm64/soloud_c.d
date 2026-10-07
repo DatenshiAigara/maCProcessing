@@ -1,0 +1,37 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/c_api/soloud_c.cpp \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_filter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_fader.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_audiosource.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_bus.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_queue.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_error.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_ay.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_bassboostfilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_fftfilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_biquadresonantfilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_dcremovalfilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_echofilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_fft.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_flangerfilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_freeverbfilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_lofifilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_monotone.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_misc.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_noise.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_openmpt.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_robotizefilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_sfxr.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_speech.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/../src/audiosource/speech/darray.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/../src/audiosource/speech/klatt.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/../src/audiosource/speech/resonator.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/../src/audiosource/speech/tts.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_tedsid.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_vic.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_vizsn.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_wav.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_waveshaperfilter.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/../include/soloud_wavstream.h

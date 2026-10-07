@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		076E6D2761FAB5C66F9FD720 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8AA506D6C29D4FDC9944A688 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BFE604A286FAE73BA7EA0DD7 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				054F4E427314424D9CCC4F26 /* PBXTargetDependency */,
+				1D7F03A5CF5E49A793CB9AB0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6B91F88E44F35567AB23A79C /* glfw-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 11D61BDF8CA444F395F394CC /* Build configuration list for PBXAggregateTarget "glfw-populate" */;
+			buildPhases = (
+				8184348BC9040BBCFCEB724D /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-mkdir */,
+				5D82C8917469E323D40D333E /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-download */,
+				6D8DE5B33DB88F2411A69BB7 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-update */,
+				B8F83656FAB562A0F0555620 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-patch */,
+				EF5BED69A116499B9FC2AEA7 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-configure */,
+				DDA67969ECED8D1FA76A7DC7 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-build */,
+				B2E6FF494ABD0F6E0F2BE660 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-install */,
+				0176C7C68C031385951E82B4 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-test */,
+				92623FC8CB5271CEB9429E92 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-complete */,
+				BBCD5A618CAA510DFAE2374D /* Generate CMakeFiles/glfw-populate */,
+			);
+			dependencies = (
+				491E109F0C8D442FB468B905 /* PBXTargetDependency */,
+			);
+			name = "glfw-populate";
+			productName = "glfw-populate";
+		};
+		B96C877D903F99BEE48B5342 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D745C1082331449E80FE7075 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FB0F9CC17DC3898B788638A0 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		51937A6A17A0452EA17FB398 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1A26B9497B814E7AA815CF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C583A684BB4154A85D9CD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96C877D903F99BEE48B5342;
+			remoteInfo = ZERO_CHECK;
+		};
+		BAAB333C5D1F46D9B306B101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C583A684BB4154A85D9CD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96C877D903F99BEE48B5342;
+			remoteInfo = ZERO_CHECK;
+		};
+		E8E430C749A54750A6368AB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C583A684BB4154A85D9CD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B91F88E44F35567AB23A79C;
+			remoteInfo = "glfw-populate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		533BAAD20F274C09BC70B1F2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C5EB2DD980CE4099A1EF5B09 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A2BE289B7334C6B94B9FD57 /* ExternalProjectTargets */ = {
+			isa = PBXGroup;
+			children = (
+				2F47A2BE06894D73AA0D260B /* glfw-populate */,
+			);
+			name = ExternalProjectTargets;
+			sourceTree = "<group>";
+		};
+		155C0439ABE140FFB03DDF62 /* glfw-populate */ = {
+			isa = PBXGroup;
+			children = (
+				CFC4D559CAC5424682A4A882 /* CMake Rules */,
+				C5EB2DD980CE4099A1EF5B09 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeLists.txt */,
+			);
+			name = "glfw-populate";
+			sourceTree = "<group>";
+		};
+		2F47A2BE06894D73AA0D260B /* glfw-populate */ = {
+			isa = PBXGroup;
+			children = (
+				155C0439ABE140FFB03DDF62 /* glfw-populate */,
+			);
+			name = "glfw-populate";
+			sourceTree = "<group>";
+		};
+		ABC865D9898840D6A3D9DC45 = {
+			isa = PBXGroup;
+			children = (
+				F6F25540FE644D16A85B15A1 /* ALL_BUILD */,
+				0A2BE289B7334C6B94B9FD57 /* ExternalProjectTargets */,
+				E069589740E94CA5AAB0AFAF /* Products */,
+				B31B5AEA84E04738830D6393 /* Frameworks */,
+				DEE3680DA2194AE9BE0A86D4 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		B31B5AEA84E04738830D6393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFC4D559CAC5424682A4A882 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DEE3680DA2194AE9BE0A86D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E069589740E94CA5AAB0AFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F130E81C736649589280DDBD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F6F25540FE644D16A85B15A1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F130E81C736649589280DDBD /* CMake Rules */,
+				533BAAD20F274C09BC70B1F2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D2C583A684BB4154A85D9CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 97ACE34046764AD39C25F0B9 /* Build configuration list for PBXProject "glfw-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				51937A6A17A0452EA17FB398 /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = ABC865D9898840D6A3D9DC45;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				076E6D2761FAB5C66F9FD720 /* ALL_BUILD */,
+				6B91F88E44F35567AB23A79C /* glfw-populate */,
+				B96C877D903F99BEE48B5342 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0176C7C68C031385951E82B4 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-install"			);
+			name = "Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-test";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3A3878B3DCB068E5606920FD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5D82C8917469E323D40D333E /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-mkdir","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/download-glfw-populate.cmake","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-urlinfo.txt"			);
+			name = "Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-download";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/download-glfw-populate.cmake
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/verify-glfw-populate.cmake
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/extract-glfw-populate.cmake
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6D8DE5B33DB88F2411A69BB7 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-download","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update-info.txt"			);
+			name = "Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-update";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-update
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8184348BC9040BBCFCEB724D /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-mkdir";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild
+  /opt/homebrew/bin/cmake -Dcfgdir=/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		92623FC8CB5271CEB9429E92 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-build","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-configure","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-download","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-install","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-mkdir","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-patch","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-test","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-complete";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild
+  /opt/homebrew/bin/cmake -E make_directory /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-complete
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B2E6FF494ABD0F6E0F2BE660 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-build"			);
+			name = "Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-install";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B8F83656FAB562A0F0555620 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-update","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch-info.txt"			);
+			name = "Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-patch";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		BBCD5A618CAA510DFAE2374D /* Generate CMakeFiles/glfw-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-complete"			);
+			name = "Generate CMakeFiles/glfw-populate";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeFiles/glfw-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		BFE604A286FAE73BA7EA0DD7 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DDA67969ECED8D1FA76A7DC7 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-configure"			);
+			name = "Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-build";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EF5BED69A116499B9FC2AEA7 /* Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-patch","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-cfgcmd.txt"			);
+			name = "Generate glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-configure";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/glfw-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FB0F9CC17DC3898B788638A0 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild
+  make -f /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		054F4E427314424D9CCC4F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B91F88E44F35567AB23A79C /* glfw-populate */;
+			targetProxy = E8E430C749A54750A6368AB6 /* PBXContainerItemProxy */;
+		};
+		1D7F03A5CF5E49A793CB9AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96C877D903F99BEE48B5342 /* ZERO_CHECK */;
+			targetProxy = BAAB333C5D1F46D9B306B101 /* PBXContainerItemProxy */;
+		};
+		491E109F0C8D442FB468B905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96C877D903F99BEE48B5342 /* ZERO_CHECK */;
+			targetProxy = 1A26B9497B814E7AA815CF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3878E50ADA7F439F87C68DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				SDKROOT = "";
+				SYMROOT = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-subbuild/build";
+			};
+			name = Debug;
+		};
+		66AEC7D99A9D418EB7AEB71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9045A554E0644B899F25D8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glfw-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		93AC84382B814BAF91DB0D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D61BDF8CA444F395F394CC /* Build configuration list for PBXAggregateTarget "glfw-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9045A554E0644B899F25D8E5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8AA506D6C29D4FDC9944A688 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AC84382B814BAF91DB0D31 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		97ACE34046764AD39C25F0B9 /* Build configuration list for PBXProject "glfw-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3878E50ADA7F439F87C68DBB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D745C1082331449E80FE7075 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AEC7D99A9D418EB7AEB71E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2C583A684BB4154A85D9CD6 /* Project object */;
+}

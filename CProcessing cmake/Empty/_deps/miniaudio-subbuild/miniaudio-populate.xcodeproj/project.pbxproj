@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6340C0D8D437E50FB3325DEC /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F52D1D74B814474398772FC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3BA8A02DE75B542A18B00BCD /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				3E6E600F7838409A8AC3F6CD /* PBXTargetDependency */,
+				21A54D4ED52F4F7BA9328B08 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9D80806DD6E30A2C00A5DB87 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 760EB77364044178B126460C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				30596A988D590E136554D9AC /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A1354D012A20FCE9783ADAC6 /* miniaudio-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9D2FBD9CBB394588A9D9C3B7 /* Build configuration list for PBXAggregateTarget "miniaudio-populate" */;
+			buildPhases = (
+				34029D611B0DC8CD437F68DC /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-mkdir */,
+				929BCB209A2A4650150C5CCC /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-download */,
+				CAA82376DBA9C7932412045E /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-update */,
+				18A632E50B5B784A9A5BD5DE /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-patch */,
+				30ABDB6A56854EF54C9CC57A /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-configure */,
+				B582302AD5CD5B2BACECC689 /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-build */,
+				3A12E4115B50FBB3EFC15724 /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-install */,
+				3FB49BBD7A28DC2B76C04F20 /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-test */,
+				F3D6B1D00CDBC338DFD9D14C /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-complete */,
+				9C2FEC3CDAA6C6B9279DC1C1 /* Generate CMakeFiles/miniaudio-populate */,
+			);
+			dependencies = (
+				A5DD6CB9DB674A0EAC06026B /* PBXTargetDependency */,
+			);
+			name = "miniaudio-populate";
+			productName = "miniaudio-populate";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		2E37E0743B7242A39A1D4D2B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		06EA01EB9B644200B7997A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE8A9811FF046AF8D425538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D80806DD6E30A2C00A5DB87;
+			remoteInfo = ZERO_CHECK;
+		};
+		2AF0BC50A71149508DCC1D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE8A9811FF046AF8D425538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D80806DD6E30A2C00A5DB87;
+			remoteInfo = ZERO_CHECK;
+		};
+		D7A957C74DE34EFEAE147B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DE8A9811FF046AF8D425538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1354D012A20FCE9783ADAC6;
+			remoteInfo = "miniaudio-populate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5881869B32D446E48F866B42 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		92A9D6B900FE414AAA2426F3 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10824AAA27D644C886550DB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		16DD3365A77340AA9F62848C /* miniaudio-populate */ = {
+			isa = PBXGroup;
+			children = (
+				B21F87258721499BA05C48AC /* miniaudio-populate */,
+			);
+			name = "miniaudio-populate";
+			sourceTree = "<group>";
+		};
+		1FF96803A00746E2AFFCFEE3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				38214B648BD44330ABE398E2 /* CMake Rules */,
+				5881869B32D446E48F866B42 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		38214B648BD44330ABE398E2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		63BB7A27055242EA8D940460 /* ExternalProjectTargets */ = {
+			isa = PBXGroup;
+			children = (
+				16DD3365A77340AA9F62848C /* miniaudio-populate */,
+			);
+			name = ExternalProjectTargets;
+			sourceTree = "<group>";
+		};
+		70552DCB85C54AEFA44150DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B21F87258721499BA05C48AC /* miniaudio-populate */ = {
+			isa = PBXGroup;
+			children = (
+				BC7E0BE87B5D41A8AF4648BB /* CMake Rules */,
+				92A9D6B900FE414AAA2426F3 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeLists.txt */,
+			);
+			name = "miniaudio-populate";
+			sourceTree = "<group>";
+		};
+		B37FE5FAF7844C198B106E7E = {
+			isa = PBXGroup;
+			children = (
+				1FF96803A00746E2AFFCFEE3 /* ALL_BUILD */,
+				63BB7A27055242EA8D940460 /* ExternalProjectTargets */,
+				70552DCB85C54AEFA44150DE /* Products */,
+				D1696867C6C74B96A5F9AEAD /* Frameworks */,
+				10824AAA27D644C886550DB0 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		BC7E0BE87B5D41A8AF4648BB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D1696867C6C74B96A5F9AEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		7DE8A9811FF046AF8D425538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = A88D876D6AA2457A88F3057F /* Build configuration list for PBXProject "miniaudio-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2E37E0743B7242A39A1D4D2B /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B37FE5FAF7844C198B106E7E;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				6340C0D8D437E50FB3325DEC /* ALL_BUILD */,
+				A1354D012A20FCE9783ADAC6 /* miniaudio-populate */,
+				9D80806DD6E30A2C00A5DB87 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A632E50B5B784A9A5BD5DE /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-update","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/miniaudio-populate-patch-info.txt"			);
+			name = "Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-patch";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		30596A988D590E136554D9AC /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild
+  make -f /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		30ABDB6A56854EF54C9CC57A /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-patch","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/tmp/miniaudio-populate-cfgcmd.txt"			);
+			name = "Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-configure";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		34029D611B0DC8CD437F68DC /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-mkdir";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild
+  /opt/homebrew/bin/cmake -Dcfgdir=/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/tmp/miniaudio-populate-mkdirs.cmake
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3A12E4115B50FBB3EFC15724 /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-build"			);
+			name = "Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-install";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3BA8A02DE75B542A18B00BCD /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3FB49BBD7A28DC2B76C04F20 /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-install"			);
+			name = "Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-test";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		929BCB209A2A4650150C5CCC /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-mkdir","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/download-miniaudio-populate.cmake","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/miniaudio-populate-urlinfo.txt"			);
+			name = "Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-download";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/download-miniaudio-populate.cmake
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/verify-miniaudio-populate.cmake
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/extract-miniaudio-populate.cmake
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9C2FEC3CDAA6C6B9279DC1C1 /* Generate CMakeFiles/miniaudio-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-complete"			);
+			name = "Generate CMakeFiles/miniaudio-populate";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/miniaudio-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B582302AD5CD5B2BACECC689 /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-configure"			);
+			name = "Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-build";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		CAA82376DBA9C7932412045E /* Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-download","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/miniaudio-populate-update-info.txt"			);
+			name = "Generate miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-update";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-update
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		DAFE5670834FCF1A81DD5152 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F3D6B1D00CDBC338DFD9D14C /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-build","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-configure","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-download","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-install","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-mkdir","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-patch","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-test","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-complete";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/miniaudio-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild
+  /opt/homebrew/bin/cmake -E make_directory /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-complete
+  /opt/homebrew/bin/cmake -E touch /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/miniaudio-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A54D4ED52F4F7BA9328B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D80806DD6E30A2C00A5DB87 /* ZERO_CHECK */;
+			targetProxy = 2AF0BC50A71149508DCC1D2A /* PBXContainerItemProxy */;
+		};
+		3E6E600F7838409A8AC3F6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1354D012A20FCE9783ADAC6 /* miniaudio-populate */;
+			targetProxy = D7A957C74DE34EFEAE147B10 /* PBXContainerItemProxy */;
+		};
+		A5DD6CB9DB674A0EAC06026B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D80806DD6E30A2C00A5DB87 /* ZERO_CHECK */;
+			targetProxy = 06EA01EB9B644200B7997A01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27C3B586333449A98DA46745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "miniaudio-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		39745672865A4D91BE5A3224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6E0AE7447757490E96F8E99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				SDKROOT = "";
+				SYMROOT = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/build";
+			};
+			name = Debug;
+		};
+		C86A6388107D413598D62281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		760EB77364044178B126460C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39745672865A4D91BE5A3224 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D2FBD9CBB394588A9D9C3B7 /* Build configuration list for PBXAggregateTarget "miniaudio-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C3B586333449A98DA46745 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A88D876D6AA2457A88F3057F /* Build configuration list for PBXProject "miniaudio-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0AE7447757490E96F8E99F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F52D1D74B814474398772FC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86A6388107D413598D62281 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DE8A9811FF046AF8D425538 /* Project object */;
+}

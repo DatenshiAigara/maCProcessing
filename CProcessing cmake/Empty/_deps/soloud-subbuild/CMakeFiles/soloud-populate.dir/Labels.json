@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/CMakeFiles/soloud-populate"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/CMakeFiles/soloud-populate.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/CMakeFiles/CMakeFiles/soloud-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/CMakeFiles/soloud-populate-build.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/CMakeFiles/soloud-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/CMakeFiles/soloud-populate-download.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/CMakeFiles/soloud-populate-install.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/CMakeFiles/soloud-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/CMakeFiles/soloud-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/CMakeFiles/soloud-populate-test.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/CMakeFiles/soloud-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"soloud-populate"
+		],
+		"name" : "soloud-populate"
+	}
+}

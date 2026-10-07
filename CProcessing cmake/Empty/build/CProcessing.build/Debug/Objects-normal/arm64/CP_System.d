@@ -1,0 +1,24 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_System.c \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc/cprocessing.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc/cprocessing_common.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_System.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Platform.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD/glad.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD/khrplatform.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src/nanovg.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src/nanovg_gl.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Color.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_File.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Image.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Input.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Math.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Random.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Noise.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Sound.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include/soloud_c.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/Internal_Text.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/tinycthread.h \
+  /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3native.h

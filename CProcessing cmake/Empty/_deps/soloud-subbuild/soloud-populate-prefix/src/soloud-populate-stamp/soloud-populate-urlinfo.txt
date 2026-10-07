@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/download-soloud-populate.cmake;COMMAND;/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/verify-soloud-populate.cmake;COMMAND;/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-subbuild/soloud-populate-prefix/src/soloud-populate-stamp/extract-soloud-populate.cmake
+source_dir=/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src
+work_dir=/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps
+url(s)=https://github.com/jarikomppa/soloud/archive/e82fd32c1f62183922f08c14c814a02b58db1873.tar.gz
+hash=SHA256=863c5a2501ac935fb88bb357b1375e50d75876dd1f37806f4045143f46dbf3f1
+      no_extract=
+

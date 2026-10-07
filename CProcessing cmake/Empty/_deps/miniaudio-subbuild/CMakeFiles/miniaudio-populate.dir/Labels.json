@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/miniaudio-populate"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/miniaudio-populate.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/CMakeFiles/CMakeFiles/miniaudio-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/CMakeFiles/miniaudio-populate-build.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/CMakeFiles/miniaudio-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/CMakeFiles/miniaudio-populate-download.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/CMakeFiles/miniaudio-populate-install.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/CMakeFiles/miniaudio-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/CMakeFiles/miniaudio-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/CMakeFiles/miniaudio-populate-test.rule"
+		},
+		{
+			"file" : "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/CMakeFiles/miniaudio-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"miniaudio-populate"
+		],
+		"name" : "miniaudio-populate"
+	}
+}

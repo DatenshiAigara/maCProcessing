@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'ALL_BUILD' in project 'soloud-populate'
+➜ Explicit dependency on target 'soloud-populate' in project 'soloud-populate'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'soloud-populate'
+Target 'soloud-populate' in project 'soloud-populate'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'soloud-populate'
+Target 'ZERO_CHECK' in project 'soloud-populate' (no dependencies)

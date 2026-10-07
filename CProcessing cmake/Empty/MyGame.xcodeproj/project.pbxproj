@@ -1,0 +1,2112 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		554EC5FF3210391F06583587 /* update_mappings */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 15CF2D8E83DA4398B3A1ED85 /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildPhases = (
+				3A8924DD17C256C2586A4474 /* Generate _deps/glfw-build/src/CMakeFiles/update_mappings */,
+			);
+			dependencies = (
+				3E7120A72C8644708EC4461C /* PBXTargetDependency */,
+			);
+			name = update_mappings;
+			productName = update_mappings;
+		};
+		7E953CC6EE9202DF65BE30D0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6F1A2BDD34D4FB6B7F503C1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C6751665AC1BFD0BB60C95CF /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				3BA12B54DBE94F27A3F01932 /* PBXTargetDependency */,
+				C3ED0F2680E24429B70D1640 /* PBXTargetDependency */,
+				D9ABA0B0544D4BBC81326FB5 /* PBXTargetDependency */,
+				B99E03CAD05D4AEB856D760A /* PBXTargetDependency */,
+				2C96917C32284D7C8FFBBCAF /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8528EDE90817ECE8DE6077F5 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FEDD74E556E34273A4096B06 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4C200E6C97A84F3385A62853 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01D394CE3C9246C1B8DDCA0D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.h */ = {isa = PBXBuildFile; fileRef = A5ED43168FB6487A9159A914 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.h */; };
+		02D5B722F18B4CD6B24D8DA4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/vect.c */ = {isa = PBXBuildFile; fileRef = 40BC9F10605A41F9B6934F3E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/vect.c */; };
+		04CA3AF7132E4D2586FEC5CE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = A6728BA9CB954C07A88374F9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.h */; };
+		0B505A10845B4E319D0E0477 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp */ = {isa = PBXBuildFile; fileRef = C398AD0354B4412C8C6C7775 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp */; };
+		0CAC5B02ABB546A1A273F2A5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Noise.c */ = {isa = PBXBuildFile; fileRef = 30A1606C44464B8FAA5F9268 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Noise.c */; };
+		180122D6D3D342419807DAAF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_waveshaperfilter.cpp */ = {isa = PBXBuildFile; fileRef = 2B60DD7360364876BBDFD26E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_waveshaperfilter.cpp */; };
+		186E35D1A8F448B4A944B271 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Sound.c */ = {isa = PBXBuildFile; fileRef = 8C50792123454BA482674055 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Sound.c */; };
+		19983F5731CA41A587753890 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_flangerfilter.cpp */ = {isa = PBXBuildFile; fileRef = EECD0FCB49E44E529B217C7F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_flangerfilter.cpp */; };
+		199F0B2BE38D41BCA7B6E4D5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_getters.cpp */ = {isa = PBXBuildFile; fileRef = F841B318A22942AABCCD0FB7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_getters.cpp */; };
+		1D1C623DA08245EBA792CD02 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/CProcessing-CMakeForceLinker.cxx */ = {isa = PBXBuildFile; fileRef = 90F4D9502BDD458184A4A9A8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/CProcessing-CMakeForceLinker.cxx */; settings = {COMPILER_FLAGS = "-x 'c++'"; }; };
+		1F5C39CFD3BD4F7DBA31A1C7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1F52BFCB585B4F19A268F8D1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeLists.txt */; };
+		20492920668E417A9C5A13A1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_lofifilter.cpp */ = {isa = PBXBuildFile; fileRef = 456EE66C66A04B66B5A9BDD5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_lofifilter.cpp */; };
+		20EEFA8DC6C24A90BF6F55E2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = E071EEEB4A6C4099B4790D34 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.h */; };
+		22D16AAEAB044325BD50B8A5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 8F5333F748A649119B07CDC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/nsgl_context.m */; };
+		23659708768F4236B19B0D07 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = 6989DC39B90A48C28257ACE1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_platform.h */; };
+		25247572A26045C7B05C4D22 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fader.cpp */ = {isa = PBXBuildFile; fileRef = 972A76318470458C9B1E351F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fader.cpp */; };
+		289A31F3BCC04B0092700471 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E59AF8011426431C8342311C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/CMakeLists.txt */; };
+		2935FE9FAF1C4DBC9AD6A3DC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9E599BCA179849BC9220B941 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/CMakeLists.txt */; };
+		2C3C2F9E094C4CACA4F938E5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_window.c */ = {isa = PBXBuildFile; fileRef = 7C21E94CE5984C5BB7CA380C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_window.c */; };
+		2C41E06555E84773A38FDC69 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Color.c */ = {isa = PBXBuildFile; fileRef = BBC1BC9848F745EB9C8B13AC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Color.c */; };
+		2CDA47117CB5488BBAF1B7E3 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_File.c */ = {isa = PBXBuildFile; fileRef = 146635FE4B404D6FA8F4F0F8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_File.c */; };
+		340CD83F983E4F718B7D44AB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.h */ = {isa = PBXBuildFile; fileRef = BBC29F81A7964E949251AF07 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.h */; };
+		36378BEF587441E088B055EB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_init.c */ = {isa = PBXBuildFile; fileRef = 29CEE40CF7804120869D17EF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_init.c */; };
+		36E0F1A035DF459DA2481A61 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/chipplayer.cpp */ = {isa = PBXBuildFile; fileRef = BAA8C7683B2648C0ABEEBEC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/chipplayer.cpp */; };
+		371C239ABA1A46948CF2AD85 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_faderops.cpp */ = {isa = PBXBuildFile; fileRef = 1A4A76C11EEB4627964E2E74 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_faderops.cpp */; };
+		40832413875044A3BA669D63 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_bus.cpp */ = {isa = PBXBuildFile; fileRef = B0E2565730304A90A06D8D01 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_bus.cpp */; };
+		4097A40332D94EB48D5B2E5A /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Text.c */ = {isa = PBXBuildFile; fileRef = DBEBFC7CEABE47FFAF04E9BF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Text.c */; };
+		463588B1C2C44E03B9ABE258 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/context.c */ = {isa = PBXBuildFile; fileRef = B5FE9AC003EB47D3BDB7DC3C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/context.c */; };
+		46DDBBD44A964C0DB4DF68E8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/null/soloud_null.cpp */ = {isa = PBXBuildFile; fileRef = B6007FE7A9C24CC3AB955996 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/null/soloud_null.cpp */; };
+		473F8E29B65A4AB3BDE61CE2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D864B3A70FC84253B249C603 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/CMakeLists.txt */; };
+		48293F8E89F543078801BCC5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = FC0CAA6F9EF846FE9A97A7AE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.h */; };
+		4850BB46E0EF4CB8BFE41748 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/soloud_speech.cpp */ = {isa = PBXBuildFile; fileRef = CF4062947F7745F4B833D17D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/soloud_speech.cpp */; };
+		4A6389B141B749BBBEAD6C32 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = 56FC33D4C5804BFF862D861F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.c */; };
+		50C830EB36154E9CA5099E75 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_fftfilter.cpp */ = {isa = PBXBuildFile; fileRef = AD4C96AB43FA4F15BBFC561B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_fftfilter.cpp */; };
+		52486549B059467F90BBC6B5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Input.c */ = {isa = PBXBuildFile; fileRef = DD90455049544F97A7A47F1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Input.c */; };
+		525E1B4279AB42F3B2AEDF2B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft.cpp */ = {isa = PBXBuildFile; fileRef = B1A7ECE0C33845CBA70BC0A5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft.cpp */; };
+		545BB448AF224F75860D17DA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 7046426B34D2402CA7A57985 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/egl_context.c */; };
+		54E53CD364044A3A8FF553AE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt_dll.c */ = {isa = PBXBuildFile; fileRef = FFC1FB99E7444E56976E1897 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt_dll.c */; };
+		5621F8D085864C119EA14C88 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndbuffer.cpp */ = {isa = PBXBuildFile; fileRef = 0D2F0BE693CD4F639F4A2736 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndbuffer.cpp */; };
+		57ACE9207EB14E6180A47224 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/nanovg_gl3.c */ = {isa = PBXBuildFile; fileRef = 7C73169C67B24B14BCB5CE00 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/nanovg_gl3.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		591AFC31C293499886AADB1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_audiosource.cpp */ = {isa = PBXBuildFile; fileRef = BE3237962B2240F38A6C91ED /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_audiosource.cpp */; };
+		605E426F01044AF5AECAB2DD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_setters.cpp */ = {isa = PBXBuildFile; fileRef = ADEBCAF7155545FC89CAB43C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_setters.cpp */; };
+		60C255C390544C6A8B6DF4BD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Math.c */ = {isa = PBXBuildFile; fileRef = BA8D1143691C40D691973345 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Math.c */; };
+		62597DB1B6FA4FEE902421F9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_eqfilter.cpp */ = {isa = PBXBuildFile; fileRef = 016091FEC5CB4881B1BF0C55 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_eqfilter.cpp */; };
+		6889953CE79847308C443AC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/init.c */ = {isa = PBXBuildFile; fileRef = 8CF1CD8DDA3741879C2A9EC1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/init.c */; };
+		68E7C0AC5B914516923856DC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/nosound/soloud_nosound.cpp */ = {isa = PBXBuildFile; fileRef = DE72AF136D3F4C4383CED23B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/nosound/soloud_nosound.cpp */; };
+		6B23D5CCEF974AA5898C9597 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voiceops.cpp */ = {isa = PBXBuildFile; fileRef = CDA8664386C1448A901504B4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voiceops.cpp */; };
+		6C53328003704D9ABBD24018 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/soloud_tedsid.cpp */ = {isa = PBXBuildFile; fileRef = 11B2E3F86587498BA50E6BD7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/soloud_tedsid.cpp */; };
+		6CAC11868C0F4AA18637C167 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_file.cpp */ = {isa = PBXBuildFile; fileRef = 80A9F4F059744EA8813B62D5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_file.cpp */; };
+		6FB92A8FA7C944A3924360F3 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/soloud_miniaudio_backend/soloud_miniaudio.cpp */ = {isa = PBXBuildFile; fileRef = 8E75D3C159B14AD3AB8A8987 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/soloud_miniaudio_backend/soloud_miniaudio.cpp */; settings = {COMPILER_FLAGS = "-I/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/miniaudio-src"; }; };
+		721AAE77D2804CF3BFFCE69B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_duckfilter.cpp */ = {isa = PBXBuildFile; fileRef = 93F124FBE5E243E9AC490204 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_duckfilter.cpp */; };
+		73ED037DA82740F1989D8E04 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voicegroup.cpp */ = {isa = PBXBuildFile; fileRef = D38DFBA7CB96452A8CCC0E4B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voicegroup.cpp */; };
+		743235387D24476FA5AB2B0B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_thread.cpp */ = {isa = PBXBuildFile; fileRef = 672B5481135148DA80019DBF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_thread.cpp */; };
+		7568F63057AA4210A50A4E89 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vizsn/soloud_vizsn.cpp */ = {isa = PBXBuildFile; fileRef = 5E1C20584FFC419B95CD46C9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vizsn/soloud_vizsn.cpp */; };
+		7706A84C4F484000A85A6F16 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/monotone/soloud_monotone.cpp */ = {isa = PBXBuildFile; fileRef = 1DA3C1844FB2413A8BB300F6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/monotone/soloud_monotone.cpp */; };
+		7BE90E9096C1481391CC17EA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/soloud_ay.cpp */ = {isa = PBXBuildFile; fileRef = AA4AC0401CC64B15A2076CE5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/soloud_ay.cpp */; };
+		7D90BC25019348E48722A52D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 389EB9A7F1AE423E9F7381D8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/monitor.c */; };
+		7F9912AC1C7A4D2E86D013DD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = A4B028522F934349A35E8C41 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3.h */; };
+		800321D91FD14EB5AF7ABB74 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/internal.h */ = {isa = PBXBuildFile; fileRef = 9FE113C3F71C4047A77E65A2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/internal.h */; };
+		82E17FEA9FAD449FA31AA09E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = 60DB93D9B8EB4CE183623705 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_module.c */; };
+		888A7827C3E947C1937AF22A /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/c_api/soloud_c.cpp */ = {isa = PBXBuildFile; fileRef = DEB5FD96EDA14F449AD010BC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/c_api/soloud_c.cpp */; };
+		8CE9225FE2B44E1893DB493B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = BE8967AD9C54434CB097F6DE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/osmesa_context.c */; };
+		8D4AF54001B546D1AFE66F69 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 3E397499E78A43FAAFA96F8D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.m */; };
+		8E250F46BA4440669D63D34C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/stb_vorbis.c */ = {isa = PBXBuildFile; fileRef = 267A450BADEA43729C258B8D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/stb_vorbis.c */; };
+		8E4068BFB2A64C4ABD1C2A77 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_filter.cpp */ = {isa = PBXBuildFile; fileRef = 62A781F08811496DA4621713 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_filter.cpp */; };
+		91B487C44BC649D9BAEE3AB6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/sfxr/soloud_sfxr.cpp */ = {isa = PBXBuildFile; fileRef = 80D0ECF997554A3C82CCE9D2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/sfxr/soloud_sfxr.cpp */; };
+		93F87C087C8A454CB52E7237 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_freeverbfilter.cpp */ = {isa = PBXBuildFile; fileRef = EBF6F639E2324DC083F00E43 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_freeverbfilter.cpp */; };
+		98E68541A75349AD9DA89150 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 158ABE094F394245902F589C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3native.h */; };
+		99B4C97FB36B485BA63F50ED /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = C931D941B11C47498FB435BA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_init.m */; };
+		A1ACB0B2881F442192E0C494 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndchip.cpp */ = {isa = PBXBuildFile; fileRef = 427C6A79587140F6A0AACB6C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndchip.cpp */; };
+		A267B55956614581A119DA1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/dr_impl.cpp */ = {isa = PBXBuildFile; fileRef = 336C1806040A46A0B5AD35F2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/dr_impl.cpp */; };
+		A34777E37E4F40D4BFA2D574 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_echofilter.cpp */ = {isa = PBXBuildFile; fileRef = 447F62D36E5F449A89D22117 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_echofilter.cpp */; };
+		A78B7F38B29B4C1982579F89 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_misc.cpp */ = {isa = PBXBuildFile; fileRef = 761949B05A4C440FA4089E43 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_misc.cpp */; };
+		A80FCD02C2C8431BB9AF6385 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 8B18B4971AD44FFC8294F538 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/vulkan.c */; };
+		A86DC3AA4B40433F818C995E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/main.c */ = {isa = PBXBuildFile; fileRef = 5CA057D617ED4397B45497EE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/main.c */; };
+		ACD49C278E554D65A6DE1575 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt.cpp */ = {isa = PBXBuildFile; fileRef = 41815C135A4A41198EB86C32 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt.cpp */; };
+		AD5ECBA5344543A5BE72B63F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_biquadresonantfilter.cpp */ = {isa = PBXBuildFile; fileRef = 18396EBB56EE46D498424679 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_biquadresonantfilter.cpp */; };
+		AD68C5CB157D403F8798D366 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/window.c */ = {isa = PBXBuildFile; fileRef = 68FBC03EBD59495EA6795ED5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/window.c */; };
+		ADDEAA9687A54360813B6729 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD/glad.c */ = {isa = PBXBuildFile; fileRef = E94A3F64542C43E6A744E8E4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD/glad.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		B3B1ED95700E4AADBA89D9B9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_dcremovalfilter.cpp */ = {isa = PBXBuildFile; fileRef = 268EDF5C53C84346BF4C2287 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_dcremovalfilter.cpp */; };
+		B4DBED3203034D91B0C67377 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/klatt.cpp */ = {isa = PBXBuildFile; fileRef = C70038344B6945AF88D97810 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/klatt.cpp */; };
+		BAB21EC54F944B8CA25A557A /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 4239C39F966A42EC96126330 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/mappings.h */; };
+		BBBFF70C158443D4A69EA844 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_basicops.cpp */ = {isa = PBXBuildFile; fileRef = 1D64146336854350B56B53D8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_basicops.cpp */; };
+		BE58322031C24928A5AC513E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wavstream.cpp */ = {isa = PBXBuildFile; fileRef = 62BC1A5F45C9474D90835C9A /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wavstream.cpp */; };
+		C371A5D231A34371A6C90812 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 43BF9D0F579446A6A2B27F7E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_platform.h */; };
+		C3FD7C65314C4FF1B9C07BBA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = 2350E72D028C4FFF81E093CB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_monitor.c */; };
+		C6B744C1168942D583927487 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Graphics.c */ = {isa = PBXBuildFile; fileRef = 386AF29F5D9C4661B40A7F9B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Graphics.c */; };
+		CB76247034134D2297BD1551 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Image.c */ = {isa = PBXBuildFile; fileRef = D572E8B60FFE4FFB92546351 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Image.c */; };
+		CDC7B4A249B44B9493F8E6D6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_3d.cpp */ = {isa = PBXBuildFile; fileRef = B6AAA5E21176451B8F1404EA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_3d.cpp */; };
+		CF2DCC3121B54DF494FD1239 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/tinycthread.c */ = {isa = PBXBuildFile; fileRef = A40C48C62B434CB081581457 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/tinycthread.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		D3BCB58921834B269893017E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Random.c */ = {isa = PBXBuildFile; fileRef = 05A1E13AB8C441939EE688C2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Random.c */; };
+		D6C6693B3DF94C8DA7A17E6C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndrender.cpp */ = {isa = PBXBuildFile; fileRef = 49861A93B8F74E4EB8C4CA1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndrender.cpp */; };
+		D7B5A50AC978420992F99563 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/noise/soloud_noise.cpp */ = {isa = PBXBuildFile; fileRef = 1041FD3CA3C54CACA0C67148 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/noise/soloud_noise.cpp */; };
+		DA092F8624E24242A1DDC4A4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = DB865F793E9D4986A26B25B1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_monitor.m */; };
+		DD436956139541C1A48A5DF3 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_queue.cpp */ = {isa = PBXBuildFile; fileRef = BAEE3E1BA2B0418884493808 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_queue.cpp */; };
+		DF1F9BAAD6D046F2AF5DC240 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/darray.cpp */ = {isa = PBXBuildFile; fileRef = 38A4FABB41CF4BE092C40F7B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/darray.cpp */; };
+		DF688DBEC1974DDC9997D7F2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/tts.cpp */ = {isa = PBXBuildFile; fileRef = 208A185ECAC84C53BBCEB53D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/tts.cpp */; };
+		DF9F9CE2087647CB8F367814 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.c */ = {isa = PBXBuildFile; fileRef = 25C63C2A575D4BD18B60CC2F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.c */; };
+		E174DD56A472475C8F69009F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 8DCD23EF72324199B416DFB6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.c */; };
+		E3C2E731FC184EEDB4F84DA5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_System.c */ = {isa = PBXBuildFile; fileRef = 13225542F690467A8EED27EC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_System.c */; };
+		E5F40437F4E842BF872CDF20 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud.cpp */ = {isa = PBXBuildFile; fileRef = 097795CE02474C3B920A2851 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud.cpp */; };
+		E6E773E2197F4F5BAC5CD2F6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/resonator.cpp */ = {isa = PBXBuildFile; fileRef = E6F7FE256D274B8697F57CBD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/resonator.cpp */; };
+		E7B28CC3663E4E9583CE1BC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src/nanovg.c */ = {isa = PBXBuildFile; fileRef = 75C791C279684DA6A80A6DD9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src/nanovg.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		E965F389EA8A49DB90DC9EA1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_filterops.cpp */ = {isa = PBXBuildFile; fileRef = AC152469422B40EAB2874A45 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_filterops.cpp */; };
+		EA52DFF46BC142A8AFE26FA8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/input.c */ = {isa = PBXBuildFile; fileRef = 9ACB9167D10D451AA50E4234 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/input.c */; };
+		F147230D67EF4D7AA887D4C7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.c */ = {isa = PBXBuildFile; fileRef = A5556C2BC0944013A0E4F1CB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.c */; };
+		F35EA1EA8EE7475FB8C33564 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vic/soloud_vic.cpp */ = {isa = PBXBuildFile; fileRef = 5D2DD604031D439CA2B8854E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vic/soloud_vic.cpp */; };
+		F53663D3E08E43AEA08A26EB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/ted.cpp */ = {isa = PBXBuildFile; fileRef = 4A3E4124CEFA49DFBE5641FA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/ted.cpp */; };
+		F5672C1141F441AB93A4F3F4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_robotizefilter.cpp */ = {isa = PBXBuildFile; fileRef = A2E57DCC9F1F4F2D81610FF0 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_robotizefilter.cpp */; };
+		F67D3DD66E5A4129B191F44D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 5FA7C6469DE04B9FBB82FCC8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_window.m */; };
+		F88CD3EEC7074513A9F173D1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_bassboostfilter.cpp */ = {isa = PBXBuildFile; fileRef = 623D43F037FB4523B392F725 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_bassboostfilter.cpp */; };
+		FBA6EC3591C0488690272A59 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft_lut.cpp */ = {isa = PBXBuildFile; fileRef = 677F21F2EC21412F966924CF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft_lut.cpp */; };
+		FD651C83785F43D5B521702C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Setting.c */ = {isa = PBXBuildFile; fileRef = 5D5D61E24A2E4EC19A403FBD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Setting.c */; };
+		FE45C4A7D10B4A1888367844 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/sid.cpp */ = {isa = PBXBuildFile; fileRef = DD0B52D5B8D94F168B047723 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/sid.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		42A7E2F1D33E42E98D8A5484 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		80A35F20B6924905A2646506 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B274803D8AF8422EBE4EDAEE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C1302CBF1C8844B892BBD0DC /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		05C2DC99951E4310AC33F876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E0391A0B3034693C32B8BA0;
+			remoteInfo = MyGame;
+		};
+		105A1AD6EF624746BC95B89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8528EDE90817ECE8DE6077F5;
+			remoteInfo = ZERO_CHECK;
+		};
+		136E116BD0094F4BA9979550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E8880336B6F41D259E31CD;
+			remoteInfo = glfw;
+		};
+		1FCE0BCA730C4E78A7D3D1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A0103CF463DE4A4A929CB72;
+			remoteInfo = soloud;
+		};
+		5657CA00FB2E470EB1AA34FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63423B14494A4C781E61EC8E;
+			remoteInfo = CProcessing;
+		};
+		66CBFCD924EF4EDDBBD1B86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8528EDE90817ECE8DE6077F5;
+			remoteInfo = ZERO_CHECK;
+		};
+		7B8A6877A2714818B00A2740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8528EDE90817ECE8DE6077F5;
+			remoteInfo = ZERO_CHECK;
+		};
+		91CD6D4FD8454D689B3F5447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E8880336B6F41D259E31CD;
+			remoteInfo = glfw;
+		};
+		C2D64F2A26C848759A9E7BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8528EDE90817ECE8DE6077F5;
+			remoteInfo = ZERO_CHECK;
+		};
+		CBDA81D33B514F159F48FBC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63423B14494A4C781E61EC8E;
+			remoteInfo = CProcessing;
+		};
+		E2516039D0654CF4ADECCCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38221C329DA7422788095BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A0103CF463DE4A4A929CB72;
+			remoteInfo = soloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016091FEC5CB4881B1BF0C55 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_eqfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_eqfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_eqfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		05A1E13AB8C441939EE688C2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Random.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Random.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Random.c"; sourceTree = SOURCE_ROOT; };
+		097795CE02474C3B920A2851 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud.cpp; path = "_deps/soloud-src/src/core/soloud.cpp"; sourceTree = SOURCE_ROOT; };
+		0D2F0BE693CD4F639F4A2736 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndbuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sndbuffer.cpp; path = "_deps/soloud-src/src/audiosource/ay/sndbuffer.cpp"; sourceTree = SOURCE_ROOT; };
+		1041FD3CA3C54CACA0C67148 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/noise/soloud_noise.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_noise.cpp; path = "_deps/soloud-src/src/audiosource/noise/soloud_noise.cpp"; sourceTree = SOURCE_ROOT; };
+		11B2E3F86587498BA50E6BD7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/soloud_tedsid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_tedsid.cpp; path = "_deps/soloud-src/src/audiosource/tedsid/soloud_tedsid.cpp"; sourceTree = SOURCE_ROOT; };
+		13225542F690467A8EED27EC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_System.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_System.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_System.c"; sourceTree = SOURCE_ROOT; };
+		146635FE4B404D6FA8F4F0F8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_File.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_File.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_File.c"; sourceTree = SOURCE_ROOT; };
+		158ABE094F394245902F589C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "_deps/glfw-src/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		18396EBB56EE46D498424679 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_biquadresonantfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_biquadresonantfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_biquadresonantfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		1A4A76C11EEB4627964E2E74 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_faderops.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_core_faderops.cpp; path = "_deps/soloud-src/src/core/soloud_core_faderops.cpp"; sourceTree = SOURCE_ROOT; };
+		1D64146336854350B56B53D8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_basicops.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_core_basicops.cpp; path = "_deps/soloud-src/src/core/soloud_core_basicops.cpp"; sourceTree = SOURCE_ROOT; };
+		1DA3C1844FB2413A8BB300F6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/monotone/soloud_monotone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_monotone.cpp; path = "_deps/soloud-src/src/audiosource/monotone/soloud_monotone.cpp"; sourceTree = SOURCE_ROOT; };
+		1F52BFCB585B4F19A268F8D1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		208A185ECAC84C53BBCEB53D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/tts.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tts.cpp; path = "_deps/soloud-src/src/audiosource/speech/tts.cpp"; sourceTree = SOURCE_ROOT; };
+		2350E72D028C4FFF81E093CB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = "_deps/glfw-src/src/null_monitor.c"; sourceTree = SOURCE_ROOT; };
+		23D70FED59B848B2B3549D70 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = mappings.h.in; path = "_deps/glfw-src/src/mappings.h.in"; sourceTree = SOURCE_ROOT; };
+		25C63C2A575D4BD18B60CC2F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = macos_time.c; path = "_deps/glfw-src/src/macos_time.c"; sourceTree = SOURCE_ROOT; };
+		267A450BADEA43729C258B8D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/stb_vorbis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stb_vorbis.c; path = "_deps/soloud-src/src/audiosource/wav/stb_vorbis.c"; sourceTree = SOURCE_ROOT; };
+		268EDF5C53C84346BF4C2287 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_dcremovalfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_dcremovalfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_dcremovalfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		29CEE40CF7804120869D17EF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = "_deps/glfw-src/src/null_init.c"; sourceTree = SOURCE_ROOT; };
+		2B60DD7360364876BBDFD26E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_waveshaperfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_waveshaperfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_waveshaperfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		30A1606C44464B8FAA5F9268 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Noise.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Noise.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Noise.c"; sourceTree = SOURCE_ROOT; };
+		336C1806040A46A0B5AD35F2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/dr_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dr_impl.cpp; path = "_deps/soloud-src/src/audiosource/wav/dr_impl.cpp"; sourceTree = SOURCE_ROOT; };
+		386AF29F5D9C4661B40A7F9B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Graphics.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Graphics.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Graphics.c"; sourceTree = SOURCE_ROOT; };
+		389EB9A7F1AE423E9F7381D8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "_deps/glfw-src/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		38A4FABB41CF4BE092C40F7B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/darray.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = darray.cpp; path = "_deps/soloud-src/src/audiosource/speech/darray.cpp"; sourceTree = SOURCE_ROOT; };
+		39342EAC3B1647268A5B8108 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "_deps/glfw-src/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		3E397499E78A43FAAFA96F8D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "_deps/glfw-src/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		40BC9F10605A41F9B6934F3E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/vect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vect.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/vect.c"; sourceTree = SOURCE_ROOT; };
+		41815C135A4A41198EB86C32 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_openmpt.cpp; path = "_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt.cpp"; sourceTree = SOURCE_ROOT; };
+		4239C39F966A42EC96126330 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = "_deps/glfw-src/src/mappings.h"; sourceTree = SOURCE_ROOT; };
+		427C6A79587140F6A0AACB6C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndchip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sndchip.cpp; path = "_deps/soloud-src/src/audiosource/ay/sndchip.cpp"; sourceTree = SOURCE_ROOT; };
+		43BF9D0F579446A6A2B27F7E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "_deps/glfw-src/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		447F62D36E5F449A89D22117 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_echofilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_echofilter.cpp; path = "_deps/soloud-src/src/filter/soloud_echofilter.cpp"; sourceTree = SOURCE_ROOT; };
+		456EE66C66A04B66B5A9BDD5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_lofifilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_lofifilter.cpp; path = "_deps/soloud-src/src/filter/soloud_lofifilter.cpp"; sourceTree = SOURCE_ROOT; };
+		49861A93B8F74E4EB8C4CA1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndrender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sndrender.cpp; path = "_deps/soloud-src/src/audiosource/ay/sndrender.cpp"; sourceTree = SOURCE_ROOT; };
+		4A3E4124CEFA49DFBE5641FA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/ted.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ted.cpp; path = "_deps/soloud-src/src/audiosource/tedsid/ted.cpp"; sourceTree = SOURCE_ROOT; };
+		56FC33D4C5804BFF862D861F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = "_deps/glfw-src/src/null_joystick.c"; sourceTree = SOURCE_ROOT; };
+		5823A99F2CCF44249C5D4DC6 /* soloud */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsoloud.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA057D617ED4397B45497EE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = main.c; path = main.c; sourceTree = SOURCE_ROOT; };
+		5D2DD604031D439CA2B8854E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vic/soloud_vic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_vic.cpp; path = "_deps/soloud-src/src/audiosource/vic/soloud_vic.cpp"; sourceTree = SOURCE_ROOT; };
+		5D5D61E24A2E4EC19A403FBD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Setting.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Setting.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Setting.c"; sourceTree = SOURCE_ROOT; };
+		5E1C20584FFC419B95CD46C9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vizsn/soloud_vizsn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_vizsn.cpp; path = "_deps/soloud-src/src/audiosource/vizsn/soloud_vizsn.cpp"; sourceTree = SOURCE_ROOT; };
+		5FA7C6469DE04B9FBB82FCC8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "_deps/glfw-src/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		60DB93D9B8EB4CE183623705 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = "_deps/glfw-src/src/posix_module.c"; sourceTree = SOURCE_ROOT; };
+		623D43F037FB4523B392F725 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_bassboostfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_bassboostfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_bassboostfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		62A781F08811496DA4621713 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_filter.cpp; path = "_deps/soloud-src/src/core/soloud_filter.cpp"; sourceTree = SOURCE_ROOT; };
+		62BC1A5F45C9474D90835C9A /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wavstream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_wavstream.cpp; path = "_deps/soloud-src/src/audiosource/wav/soloud_wavstream.cpp"; sourceTree = SOURCE_ROOT; };
+		672B5481135148DA80019DBF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_thread.cpp; path = "_deps/soloud-src/src/core/soloud_thread.cpp"; sourceTree = SOURCE_ROOT; };
+		677F21F2EC21412F966924CF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft_lut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_fft_lut.cpp; path = "_deps/soloud-src/src/core/soloud_fft_lut.cpp"; sourceTree = SOURCE_ROOT; };
+		68FBC03EBD59495EA6795ED5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "_deps/glfw-src/src/window.c"; sourceTree = SOURCE_ROOT; };
+		6989DC39B90A48C28257ACE1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = "_deps/glfw-src/src/null_platform.h"; sourceTree = SOURCE_ROOT; };
+		7046426B34D2402CA7A57985 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = "_deps/glfw-src/src/egl_context.c"; sourceTree = SOURCE_ROOT; };
+		75C791C279684DA6A80A6DD9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src/nanovg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = nanovg.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src/nanovg.c"; sourceTree = SOURCE_ROOT; };
+		761949B05A4C440FA4089E43 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_misc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_misc.cpp; path = "_deps/soloud-src/src/core/soloud_misc.cpp"; sourceTree = SOURCE_ROOT; };
+		7C21E94CE5984C5BB7CA380C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = "_deps/glfw-src/src/null_window.c"; sourceTree = SOURCE_ROOT; };
+		7C73169C67B24B14BCB5CE00 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/nanovg_gl3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = nanovg_gl3.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/nanovg_gl3.c"; sourceTree = SOURCE_ROOT; };
+		80A9F4F059744EA8813B62D5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_file.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_file.cpp; path = "_deps/soloud-src/src/core/soloud_file.cpp"; sourceTree = SOURCE_ROOT; };
+		80D0ECF997554A3C82CCE9D2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/sfxr/soloud_sfxr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_sfxr.cpp; path = "_deps/soloud-src/src/audiosource/sfxr/soloud_sfxr.cpp"; sourceTree = SOURCE_ROOT; };
+		8B18B4971AD44FFC8294F538 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "_deps/glfw-src/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		8C50792123454BA482674055 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Sound.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Sound.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Sound.c"; sourceTree = SOURCE_ROOT; };
+		8CF1CD8DDA3741879C2A9EC1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "_deps/glfw-src/src/init.c"; sourceTree = SOURCE_ROOT; };
+		8D7AFCC8A9A84A1390891796 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8DCD23EF72324199B416DFB6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = "_deps/glfw-src/src/posix_thread.c"; sourceTree = SOURCE_ROOT; };
+		8E75D3C159B14AD3AB8A8987 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/soloud_miniaudio_backend/soloud_miniaudio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_miniaudio.cpp; path = "_deps/cprocessing-build/soloud_miniaudio_backend/soloud_miniaudio.cpp"; sourceTree = SOURCE_ROOT; };
+		8F5333F748A649119B07CDC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "_deps/glfw-src/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		90F4D9502BDD458184A4A9A8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/CProcessing-CMakeForceLinker.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "CProcessing-CMakeForceLinker.cxx"; path = "_deps/cprocessing-build/CMakeFiles/CProcessing-CMakeForceLinker.cxx"; sourceTree = SOURCE_ROOT; };
+		93F124FBE5E243E9AC490204 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_duckfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_duckfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_duckfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		972A76318470458C9B1E351F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_fader.cpp; path = "_deps/soloud-src/src/core/soloud_fader.cpp"; sourceTree = SOURCE_ROOT; };
+		98DDDBE7D3EF451AB5B9BA04 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = GenerateMappings.cmake; path = "_deps/glfw-src/CMake/GenerateMappings.cmake"; sourceTree = SOURCE_ROOT; };
+		9ACB9167D10D451AA50E4234 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "_deps/glfw-src/src/input.c"; sourceTree = SOURCE_ROOT; };
+		9C87B63C7C454638A0EB7F6C /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E599BCA179849BC9220B941 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "_deps/glfw-src/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		9FE113C3F71C4047A77E65A2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "_deps/glfw-src/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		A2E57DCC9F1F4F2D81610FF0 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_robotizefilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_robotizefilter.cpp; path = "_deps/soloud-src/src/filter/soloud_robotizefilter.cpp"; sourceTree = SOURCE_ROOT; };
+		A40C48C62B434CB081581457 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/tinycthread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tinycthread.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/tinycthread.c"; sourceTree = SOURCE_ROOT; };
+		A4B028522F934349A35E8C41 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "_deps/glfw-src/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		A5556C2BC0944013A0E4F1CB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = "_deps/glfw-src/src/platform.c"; sourceTree = SOURCE_ROOT; };
+		A5ED43168FB6487A9159A914 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = "_deps/glfw-src/src/platform.h"; sourceTree = SOURCE_ROOT; };
+		A6728BA9CB954C07A88374F9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = "_deps/glfw-src/src/posix_thread.h"; sourceTree = SOURCE_ROOT; };
+		AA4AC0401CC64B15A2076CE5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/soloud_ay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_ay.cpp; path = "_deps/soloud-src/src/audiosource/ay/soloud_ay.cpp"; sourceTree = SOURCE_ROOT; };
+		AC152469422B40EAB2874A45 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_filterops.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_core_filterops.cpp; path = "_deps/soloud-src/src/core/soloud_core_filterops.cpp"; sourceTree = SOURCE_ROOT; };
+		AD4C96AB43FA4F15BBFC561B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_fftfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_fftfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_fftfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		ADEBCAF7155545FC89CAB43C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_setters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_core_setters.cpp; path = "_deps/soloud-src/src/core/soloud_core_setters.cpp"; sourceTree = SOURCE_ROOT; };
+		B0E2565730304A90A06D8D01 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_bus.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_bus.cpp; path = "_deps/soloud-src/src/core/soloud_bus.cpp"; sourceTree = SOURCE_ROOT; };
+		B1A7ECE0C33845CBA70BC0A5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_fft.cpp; path = "_deps/soloud-src/src/core/soloud_fft.cpp"; sourceTree = SOURCE_ROOT; };
+		B5597D04A60846709A2A43FF /* CProcessing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCProcessingd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FE9AC003EB47D3BDB7DC3C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "_deps/glfw-src/src/context.c"; sourceTree = SOURCE_ROOT; };
+		B6007FE7A9C24CC3AB955996 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/null/soloud_null.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_null.cpp; path = "_deps/soloud-src/src/backend/null/soloud_null.cpp"; sourceTree = SOURCE_ROOT; };
+		B6AAA5E21176451B8F1404EA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_core_3d.cpp; path = "_deps/soloud-src/src/core/soloud_core_3d.cpp"; sourceTree = SOURCE_ROOT; };
+		BA8D1143691C40D691973345 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Math.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Math.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Math.c"; sourceTree = SOURCE_ROOT; };
+		BAA8C7683B2648C0ABEEBEC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/chipplayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chipplayer.cpp; path = "_deps/soloud-src/src/audiosource/ay/chipplayer.cpp"; sourceTree = SOURCE_ROOT; };
+		BAEE3E1BA2B0418884493808 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_queue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_queue.cpp; path = "_deps/soloud-src/src/core/soloud_queue.cpp"; sourceTree = SOURCE_ROOT; };
+		BBC1BC9848F745EB9C8B13AC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Color.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Color.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Color.c"; sourceTree = SOURCE_ROOT; };
+		BBC29F81A7964E949251AF07 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = macos_time.h; path = "_deps/glfw-src/src/macos_time.h"; sourceTree = SOURCE_ROOT; };
+		BE3237962B2240F38A6C91ED /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_audiosource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_audiosource.cpp; path = "_deps/soloud-src/src/core/soloud_audiosource.cpp"; sourceTree = SOURCE_ROOT; };
+		BE8967AD9C54434CB097F6DE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = "_deps/glfw-src/src/osmesa_context.c"; sourceTree = SOURCE_ROOT; };
+		C398AD0354B4412C8C6C7775 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_wav.cpp; path = "_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp"; sourceTree = SOURCE_ROOT; };
+		C70038344B6945AF88D97810 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/klatt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = klatt.cpp; path = "_deps/soloud-src/src/audiosource/speech/klatt.cpp"; sourceTree = SOURCE_ROOT; };
+		C931D941B11C47498FB435BA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "_deps/glfw-src/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		CDA8664386C1448A901504B4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voiceops.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_core_voiceops.cpp; path = "_deps/soloud-src/src/core/soloud_core_voiceops.cpp"; sourceTree = SOURCE_ROOT; };
+		CF4062947F7745F4B833D17D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/soloud_speech.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_speech.cpp; path = "_deps/soloud-src/src/audiosource/speech/soloud_speech.cpp"; sourceTree = SOURCE_ROOT; };
+		D38DFBA7CB96452A8CCC0E4B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voicegroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_core_voicegroup.cpp; path = "_deps/soloud-src/src/core/soloud_core_voicegroup.cpp"; sourceTree = SOURCE_ROOT; };
+		D572E8B60FFE4FFB92546351 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Image.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Image.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Image.c"; sourceTree = SOURCE_ROOT; };
+		D864B3A70FC84253B249C603 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "_deps/cprocessing-src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		DB865F793E9D4986A26B25B1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "_deps/glfw-src/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		DBEBFC7CEABE47FFAF04E9BF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Text.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Text.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Text.c"; sourceTree = SOURCE_ROOT; };
+		DD0B52D5B8D94F168B047723 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/sid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sid.cpp; path = "_deps/soloud-src/src/audiosource/tedsid/sid.cpp"; sourceTree = SOURCE_ROOT; };
+		DD90455049544F97A7A47F1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CP_Input.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Input.c"; sourceTree = SOURCE_ROOT; };
+		DE72AF136D3F4C4383CED23B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/nosound/soloud_nosound.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_nosound.cpp; path = "_deps/soloud-src/src/backend/nosound/soloud_nosound.cpp"; sourceTree = SOURCE_ROOT; };
+		DEB5FD96EDA14F449AD010BC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/c_api/soloud_c.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_c.cpp; path = "_deps/soloud-src/src/c_api/soloud_c.cpp"; sourceTree = SOURCE_ROOT; };
+		E071EEEB4A6C4099B4790D34 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "_deps/glfw-src/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		E59AF8011426431C8342311C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "_deps/cprocessing-src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		E6F7FE256D274B8697F57CBD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/resonator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resonator.cpp; path = "_deps/soloud-src/src/audiosource/speech/resonator.cpp"; sourceTree = SOURCE_ROOT; };
+		E801365DE1EE4742ADFF1800 /* MyGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MyGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94A3F64542C43E6A744E8E4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD/glad.c"; sourceTree = SOURCE_ROOT; };
+		EBF6F639E2324DC083F00E43 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_freeverbfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_freeverbfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_freeverbfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		EECD0FCB49E44E529B217C7F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_flangerfilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_flangerfilter.cpp; path = "_deps/soloud-src/src/filter/soloud_flangerfilter.cpp"; sourceTree = SOURCE_ROOT; };
+		F841B318A22942AABCCD0FB7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_getters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = soloud_core_getters.cpp; path = "_deps/soloud-src/src/core/soloud_core_getters.cpp"; sourceTree = SOURCE_ROOT; };
+		FC0CAA6F9EF846FE9A97A7AE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = "_deps/glfw-src/src/null_joystick.h"; sourceTree = SOURCE_ROOT; };
+		FFC1FB99E7444E56976E1897 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt_dll.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = soloud_openmpt_dll.c; path = "_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt_dll.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2821D67112324D13BC304633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598FBA596166400E94A08783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714970C15DD44E408C4F1EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A45E56BBCA14430AA418FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E9534250394AF88855E4D2 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				42B621E18C6941D0ACD5B7CD /* Header Files */,
+				5AC2BBF4BA044E86AE16985C /* Source Files */,
+				9E599BCA179849BC9220B941 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		0522F82323164BA9A016BFB3 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0C167DD2E8234D22BC5907B4 /* soloud */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		05C346FCDDF04DD6834D804A /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				03E9534250394AF88855E4D2 /* glfw */,
+				EFE1361EAAB4420FBF2D8A3A /* update_mappings */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		08BA66B07F54460FB87268CF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E75D3C159B14AD3AB8A8987 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/soloud_miniaudio_backend/soloud_miniaudio.cpp */,
+				BAA8C7683B2648C0ABEEBEC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/chipplayer.cpp */,
+				0D2F0BE693CD4F639F4A2736 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndbuffer.cpp */,
+				427C6A79587140F6A0AACB6C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndchip.cpp */,
+				49861A93B8F74E4EB8C4CA1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndrender.cpp */,
+				AA4AC0401CC64B15A2076CE5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/soloud_ay.cpp */,
+				1DA3C1844FB2413A8BB300F6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/monotone/soloud_monotone.cpp */,
+				1041FD3CA3C54CACA0C67148 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/noise/soloud_noise.cpp */,
+				41815C135A4A41198EB86C32 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt.cpp */,
+				FFC1FB99E7444E56976E1897 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt_dll.c */,
+				80D0ECF997554A3C82CCE9D2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/sfxr/soloud_sfxr.cpp */,
+				38A4FABB41CF4BE092C40F7B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/darray.cpp */,
+				C70038344B6945AF88D97810 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/klatt.cpp */,
+				E6F7FE256D274B8697F57CBD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/resonator.cpp */,
+				CF4062947F7745F4B833D17D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/soloud_speech.cpp */,
+				208A185ECAC84C53BBCEB53D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/tts.cpp */,
+				DD0B52D5B8D94F168B047723 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/sid.cpp */,
+				11B2E3F86587498BA50E6BD7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/soloud_tedsid.cpp */,
+				4A3E4124CEFA49DFBE5641FA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/ted.cpp */,
+				5D2DD604031D439CA2B8854E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vic/soloud_vic.cpp */,
+				5E1C20584FFC419B95CD46C9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vizsn/soloud_vizsn.cpp */,
+				336C1806040A46A0B5AD35F2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/dr_impl.cpp */,
+				C398AD0354B4412C8C6C7775 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp */,
+				62BC1A5F45C9474D90835C9A /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wavstream.cpp */,
+				267A450BADEA43729C258B8D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/stb_vorbis.c */,
+				DE72AF136D3F4C4383CED23B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/nosound/soloud_nosound.cpp */,
+				B6007FE7A9C24CC3AB955996 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/null/soloud_null.cpp */,
+				DEB5FD96EDA14F449AD010BC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/c_api/soloud_c.cpp */,
+				097795CE02474C3B920A2851 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud.cpp */,
+				BE3237962B2240F38A6C91ED /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_audiosource.cpp */,
+				B0E2565730304A90A06D8D01 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_bus.cpp */,
+				B6AAA5E21176451B8F1404EA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_3d.cpp */,
+				1D64146336854350B56B53D8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_basicops.cpp */,
+				1A4A76C11EEB4627964E2E74 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_faderops.cpp */,
+				AC152469422B40EAB2874A45 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_filterops.cpp */,
+				F841B318A22942AABCCD0FB7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_getters.cpp */,
+				ADEBCAF7155545FC89CAB43C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_setters.cpp */,
+				D38DFBA7CB96452A8CCC0E4B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voicegroup.cpp */,
+				CDA8664386C1448A901504B4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voiceops.cpp */,
+				972A76318470458C9B1E351F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fader.cpp */,
+				B1A7ECE0C33845CBA70BC0A5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft.cpp */,
+				677F21F2EC21412F966924CF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft_lut.cpp */,
+				80A9F4F059744EA8813B62D5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_file.cpp */,
+				62A781F08811496DA4621713 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_filter.cpp */,
+				761949B05A4C440FA4089E43 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_misc.cpp */,
+				BAEE3E1BA2B0418884493808 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_queue.cpp */,
+				672B5481135148DA80019DBF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_thread.cpp */,
+				623D43F037FB4523B392F725 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_bassboostfilter.cpp */,
+				18396EBB56EE46D498424679 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_biquadresonantfilter.cpp */,
+				268EDF5C53C84346BF4C2287 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_dcremovalfilter.cpp */,
+				93F124FBE5E243E9AC490204 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_duckfilter.cpp */,
+				447F62D36E5F449A89D22117 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_echofilter.cpp */,
+				016091FEC5CB4881B1BF0C55 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_eqfilter.cpp */,
+				AD4C96AB43FA4F15BBFC561B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_fftfilter.cpp */,
+				EECD0FCB49E44E529B217C7F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_flangerfilter.cpp */,
+				EBF6F639E2324DC083F00E43 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_freeverbfilter.cpp */,
+				456EE66C66A04B66B5A9BDD5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_lofifilter.cpp */,
+				A2E57DCC9F1F4F2D81610FF0 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_robotizefilter.cpp */,
+				2B60DD7360364876BBDFD26E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_waveshaperfilter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0C167DD2E8234D22BC5907B4 /* soloud */ = {
+			isa = PBXGroup;
+			children = (
+				08BA66B07F54460FB87268CF /* Source Files */,
+				E59AF8011426431C8342311C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/CMakeLists.txt */,
+			);
+			name = soloud;
+			sourceTree = "<group>";
+		};
+		2D3CF6F1DA52429C84F89587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F1741FA233C46FDA35BB02D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9E25E4C63C5543D685D7C280 /* CMake Rules */,
+				8D7AFCC8A9A84A1390891796 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		42B621E18C6941D0ACD5B7CD /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4B028522F934349A35E8C41 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3.h */,
+				158ABE094F394245902F589C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW/glfw3native.h */,
+				E071EEEB4A6C4099B4790D34 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.h */,
+				43BF9D0F579446A6A2B27F7E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_platform.h */,
+				9FE113C3F71C4047A77E65A2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/internal.h */,
+				BBC29F81A7964E949251AF07 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.h */,
+				4239C39F966A42EC96126330 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/mappings.h */,
+				FC0CAA6F9EF846FE9A97A7AE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.h */,
+				6989DC39B90A48C28257ACE1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_platform.h */,
+				A5ED43168FB6487A9159A914 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.h */,
+				A6728BA9CB954C07A88374F9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5A2A0394601B4F1DB3A608C6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F4D9502BDD458184A4A9A8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/CProcessing-CMakeForceLinker.cxx */,
+				E94A3F64542C43E6A744E8E4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD/glad.c */,
+				BBC1BC9848F745EB9C8B13AC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Color.c */,
+				146635FE4B404D6FA8F4F0F8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_File.c */,
+				386AF29F5D9C4661B40A7F9B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Graphics.c */,
+				D572E8B60FFE4FFB92546351 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Image.c */,
+				DD90455049544F97A7A47F1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Input.c */,
+				BA8D1143691C40D691973345 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Math.c */,
+				30A1606C44464B8FAA5F9268 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Noise.c */,
+				05A1E13AB8C441939EE688C2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Random.c */,
+				5D5D61E24A2E4EC19A403FBD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Setting.c */,
+				8C50792123454BA482674055 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Sound.c */,
+				13225542F690467A8EED27EC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_System.c */,
+				DBEBFC7CEABE47FFAF04E9BF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Text.c */,
+				7C73169C67B24B14BCB5CE00 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/nanovg_gl3.c */,
+				A40C48C62B434CB081581457 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/tinycthread.c */,
+				40BC9F10605A41F9B6934F3E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/vect.c */,
+				75C791C279684DA6A80A6DD9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src/nanovg.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5AC2BBF4BA044E86AE16985C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C931D941B11C47498FB435BA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_init.m */,
+				3E397499E78A43FAAFA96F8D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.m */,
+				DB865F793E9D4986A26B25B1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_monitor.m */,
+				5FA7C6469DE04B9FBB82FCC8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_window.m */,
+				B5FE9AC003EB47D3BDB7DC3C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/context.c */,
+				7046426B34D2402CA7A57985 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/egl_context.c */,
+				8CF1CD8DDA3741879C2A9EC1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/init.c */,
+				9ACB9167D10D451AA50E4234 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/input.c */,
+				25C63C2A575D4BD18B60CC2F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.c */,
+				389EB9A7F1AE423E9F7381D8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/monitor.c */,
+				8F5333F748A649119B07CDC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/nsgl_context.m */,
+				29CEE40CF7804120869D17EF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_init.c */,
+				56FC33D4C5804BFF862D861F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.c */,
+				2350E72D028C4FFF81E093CB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_monitor.c */,
+				7C21E94CE5984C5BB7CA380C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_window.c */,
+				BE8967AD9C54434CB097F6DE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/osmesa_context.c */,
+				A5556C2BC0944013A0E4F1CB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.c */,
+				60DB93D9B8EB4CE183623705 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_module.c */,
+				8DCD23EF72324199B416DFB6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.c */,
+				8B18B4971AD44FFC8294F538 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/vulkan.c */,
+				68FBC03EBD59495EA6795ED5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		626D94FBB0E04965B76BF570 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				23D70FED59B848B2B3549D70 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/mappings.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6CE5D050D9A2443B9AA3351D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8CD964ACD48B4D2A9952E1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5597D04A60846709A2A43FF /* CProcessing */,
+				9C87B63C7C454638A0EB7F6C /* glfw */,
+				E801365DE1EE4742ADFF1800 /* MyGame */,
+				5823A99F2CCF44249C5D4DC6 /* soloud */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E25E4C63C5543D685D7C280 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A4C1602BC5444BF1B480528F = {
+			isa = PBXGroup;
+			children = (
+				2F1741FA233C46FDA35BB02D /* ALL_BUILD */,
+				EE7A3A1B0AAA41419FF3D018 /* CProcessing */,
+				05C346FCDDF04DD6834D804A /* GLFW3 */,
+				AF48CA6566E74A9484E5CD9E /* MyGame */,
+				0522F82323164BA9A016BFB3 /* ThirdParty */,
+				8CD964ACD48B4D2A9952E1C6 /* Products */,
+				2D3CF6F1DA52429C84F89587 /* Frameworks */,
+				6CE5D050D9A2443B9AA3351D /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		AF48CA6566E74A9484E5CD9E /* MyGame */ = {
+			isa = PBXGroup;
+			children = (
+				E4BEC21903814612A5DDA0C8 /* Source Files */,
+				1F52BFCB585B4F19A268F8D1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeLists.txt */,
+			);
+			name = MyGame;
+			sourceTree = "<group>";
+		};
+		E4BEC21903814612A5DDA0C8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA057D617ED4397B45497EE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/main.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EE7A3A1B0AAA41419FF3D018 /* CProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				5A2A0394601B4F1DB3A608C6 /* Source Files */,
+				D864B3A70FC84253B249C603 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/CMakeLists.txt */,
+			);
+			name = CProcessing;
+			sourceTree = "<group>";
+		};
+		EFE1361EAAB4420FBF2D8A3A /* update_mappings */ = {
+			isa = PBXGroup;
+			children = (
+				F542BC5836E54517B7F43826 /* CMake Rules */,
+				626D94FBB0E04965B76BF570 /* Header Files */,
+				98DDDBE7D3EF451AB5B9BA04 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/CMake/GenerateMappings.cmake */,
+				39342EAC3B1647268A5B8108 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/CMakeLists.txt */,
+			);
+			name = update_mappings;
+			sourceTree = "<group>";
+		};
+		F542BC5836E54517B7F43826 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A0103CF463DE4A4A929CB72 /* soloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA9D235B6EF42CEB8D9107F /* Build configuration list for PBXNativeTarget "soloud" */;
+			buildPhases = (
+				196414A48F534B38A56060CC /* Sources */,
+				714970C15DD44E408C4F1EFC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soloud;
+			productName = soloud;
+			productReference = 5823A99F2CCF44249C5D4DC6 /* soloud */;
+			productType = "com.apple.product-type.library.static";
+		};
+		63423B14494A4C781E61EC8E /* CProcessing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F629F55903D64ECF9A1FE8DF /* Build configuration list for PBXNativeTarget "CProcessing" */;
+			buildPhases = (
+				61D116671D77433BB2ACD945 /* Sources */,
+				598FBA596166400E94A08783 /* Frameworks */,
+				013F7071B06D4E9AA7EC6BB0 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C873ECF77D644A79012CB57 /* PBXTargetDependency */,
+				5122709705464059BBB47484 /* PBXTargetDependency */,
+			);
+			name = CProcessing;
+			productName = CProcessing;
+			productReference = B5597D04A60846709A2A43FF /* CProcessing */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		9E0391A0B3034693C32B8BA0 /* MyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB0E994944D47F9BDA059BA /* Build configuration list for PBXNativeTarget "MyGame" */;
+			buildPhases = (
+				28CE20F2E18A4278A538F432 /* Sources */,
+				7A45E56BBCA14430AA418FA8 /* Frameworks */,
+				B45DABC7A73713C882CD0684 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD98F105BF954DFE884DCCB5 /* PBXTargetDependency */,
+				FBE5DFF4209D4FB1BBCF3B93 /* PBXTargetDependency */,
+			);
+			name = MyGame;
+			productName = MyGame;
+			productReference = E801365DE1EE4742ADFF1800 /* MyGame */;
+			productType = "com.apple.product-type.tool";
+		};
+		E4E8880336B6F41D259E31CD /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50ED6C164404FF0B363B9E3 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				BF80DA489D95423B9FC5A45F /* Sources */,
+				2821D67112324D13BC304633 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C130547EF2B425CB73D5EA3 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 9C87B63C7C454638A0EB7F6C /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38221C329DA7422788095BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 211E098CCA23477C9409CE56 /* Build configuration list for PBXProject "MyGame" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C1302CBF1C8844B892BBD0DC /* Debug */,
+				80A35F20B6924905A2646506 /* Release */,
+				42A7E2F1D33E42E98D8A5484 /* MinSizeRel */,
+				B274803D8AF8422EBE4EDAEE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A4C1602BC5444BF1B480528F;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				7E953CC6EE9202DF65BE30D0 /* ALL_BUILD */,
+				63423B14494A4C781E61EC8E /* CProcessing */,
+				E4E8880336B6F41D259E31CD /* glfw */,
+				9E0391A0B3034693C32B8BA0 /* MyGame */,
+				3A0103CF463DE4A4A929CB72 /* soloud */,
+				554EC5FF3210391F06583587 /* update_mappings */,
+				8528EDE90817ECE8DE6077F5 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013F7071B06D4E9AA7EC6BB0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug/libCProcessingd.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug/libCProcessingd.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug/libCProcessingd.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release/libCProcessing.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel/libCProcessing.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo/libCProcessing.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3A8924DD17C256C2586A4474 /* Generate _deps/glfw-build/src/CMakeFiles/update_mappings */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate _deps/glfw-build/src/CMakeFiles/update_mappings";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/CMakeFiles/update_mappings"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src
+  /opt/homebrew/bin/cmake -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src
+  /opt/homebrew/bin/cmake -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src
+  /opt/homebrew/bin/cmake -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src
+  /opt/homebrew/bin/cmake -P /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4C200E6C97A84F3385A62853 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  make -f /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  make -f /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  make -f /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  make -f /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B45DABC7A73713C882CD0684 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  /opt/homebrew/bin/cmake -E copy_if_different /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug/libCProcessingd.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin
+  /opt/homebrew/bin/cmake -E copy_directory /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/Assets /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin/Assets
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  /opt/homebrew/bin/cmake -E copy_if_different /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin
+  /opt/homebrew/bin/cmake -E copy_directory /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/Assets /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin/Assets
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  /opt/homebrew/bin/cmake -E copy_if_different /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin
+  /opt/homebrew/bin/cmake -E copy_directory /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/Assets /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin/Assets
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  /opt/homebrew/bin/cmake -E copy_if_different /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo/libCProcessing.dylib /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin
+  /opt/homebrew/bin/cmake -E copy_directory /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/Assets /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin/Assets
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C6751665AC1BFD0BB60C95CF /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EF220574C043FA76D2683574 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196414A48F534B38A56060CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB92A8FA7C944A3924360F3 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/soloud_miniaudio_backend/soloud_miniaudio.cpp */,
+				36E0F1A035DF459DA2481A61 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/chipplayer.cpp */,
+				5621F8D085864C119EA14C88 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndbuffer.cpp */,
+				A1ACB0B2881F442192E0C494 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndchip.cpp */,
+				D6C6693B3DF94C8DA7A17E6C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/sndrender.cpp */,
+				7BE90E9096C1481391CC17EA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/ay/soloud_ay.cpp */,
+				7706A84C4F484000A85A6F16 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/monotone/soloud_monotone.cpp */,
+				D7B5A50AC978420992F99563 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/noise/soloud_noise.cpp */,
+				ACD49C278E554D65A6DE1575 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt.cpp */,
+				54E53CD364044A3A8FF553AE /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt_dll.c */,
+				91B487C44BC649D9BAEE3AB6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/sfxr/soloud_sfxr.cpp */,
+				DF1F9BAAD6D046F2AF5DC240 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/darray.cpp */,
+				B4DBED3203034D91B0C67377 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/klatt.cpp */,
+				E6E773E2197F4F5BAC5CD2F6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/resonator.cpp */,
+				4850BB46E0EF4CB8BFE41748 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/soloud_speech.cpp */,
+				DF688DBEC1974DDC9997D7F2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/speech/tts.cpp */,
+				FE45C4A7D10B4A1888367844 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/sid.cpp */,
+				6C53328003704D9ABBD24018 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/soloud_tedsid.cpp */,
+				F53663D3E08E43AEA08A26EB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/tedsid/ted.cpp */,
+				F35EA1EA8EE7475FB8C33564 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vic/soloud_vic.cpp */,
+				7568F63057AA4210A50A4E89 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/vizsn/soloud_vizsn.cpp */,
+				A267B55956614581A119DA1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/dr_impl.cpp */,
+				0B505A10845B4E319D0E0477 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp */,
+				BE58322031C24928A5AC513E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/soloud_wavstream.cpp */,
+				8E250F46BA4440669D63D34C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/audiosource/wav/stb_vorbis.c */,
+				68E7C0AC5B914516923856DC /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/nosound/soloud_nosound.cpp */,
+				46DDBBD44A964C0DB4DF68E8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/backend/null/soloud_null.cpp */,
+				888A7827C3E947C1937AF22A /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/c_api/soloud_c.cpp */,
+				E5F40437F4E842BF872CDF20 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud.cpp */,
+				591AFC31C293499886AADB1D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_audiosource.cpp */,
+				40832413875044A3BA669D63 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_bus.cpp */,
+				CDC7B4A249B44B9493F8E6D6 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_3d.cpp */,
+				BBBFF70C158443D4A69EA844 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_basicops.cpp */,
+				371C239ABA1A46948CF2AD85 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_faderops.cpp */,
+				E965F389EA8A49DB90DC9EA1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_filterops.cpp */,
+				199F0B2BE38D41BCA7B6E4D5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_getters.cpp */,
+				605E426F01044AF5AECAB2DD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_setters.cpp */,
+				73ED037DA82740F1989D8E04 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voicegroup.cpp */,
+				6B23D5CCEF974AA5898C9597 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_core_voiceops.cpp */,
+				25247572A26045C7B05C4D22 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fader.cpp */,
+				525E1B4279AB42F3B2AEDF2B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft.cpp */,
+				FBA6EC3591C0488690272A59 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_fft_lut.cpp */,
+				6CAC11868C0F4AA18637C167 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_file.cpp */,
+				8E4068BFB2A64C4ABD1C2A77 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_filter.cpp */,
+				A78B7F38B29B4C1982579F89 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_misc.cpp */,
+				DD436956139541C1A48A5DF3 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_queue.cpp */,
+				743235387D24476FA5AB2B0B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/core/soloud_thread.cpp */,
+				F88CD3EEC7074513A9F173D1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_bassboostfilter.cpp */,
+				AD5ECBA5344543A5BE72B63F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_biquadresonantfilter.cpp */,
+				B3B1ED95700E4AADBA89D9B9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_dcremovalfilter.cpp */,
+				721AAE77D2804CF3BFFCE69B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_duckfilter.cpp */,
+				A34777E37E4F40D4BFA2D574 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_echofilter.cpp */,
+				62597DB1B6FA4FEE902421F9 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_eqfilter.cpp */,
+				50C830EB36154E9CA5099E75 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_fftfilter.cpp */,
+				19983F5731CA41A587753890 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_flangerfilter.cpp */,
+				93F87C087C8A454CB52E7237 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_freeverbfilter.cpp */,
+				20492920668E417A9C5A13A1 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_lofifilter.cpp */,
+				F5672C1141F441AB93A4F3F4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_robotizefilter.cpp */,
+				180122D6D3D342419807DAAF /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/src/filter/soloud_waveshaperfilter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE20F2E18A4278A538F432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86DC3AA4B40433F818C995E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/main.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D116671D77433BB2ACD945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1C623DA08245EBA792CD02 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/CProcessing-CMakeForceLinker.cxx */,
+				ADDEAA9687A54360813B6729 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD/glad.c */,
+				2C41E06555E84773A38FDC69 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Color.c */,
+				2CDA47117CB5488BBAF1B7E3 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_File.c */,
+				C6B744C1168942D583927487 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Graphics.c */,
+				CB76247034134D2297BD1551 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Image.c */,
+				52486549B059467F90BBC6B5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Input.c */,
+				60C255C390544C6A8B6DF4BD /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Math.c */,
+				0CAC5B02ABB546A1A273F2A5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Noise.c */,
+				D3BCB58921834B269893017E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Random.c */,
+				FD651C83785F43D5B521702C /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Setting.c */,
+				186E35D1A8F448B4A944B271 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Sound.c */,
+				E3C2E731FC184EEDB4F84DA5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_System.c */,
+				4097A40332D94EB48D5B2E5A /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/CP_Text.c */,
+				57ACE9207EB14E6180A47224 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/nanovg_gl3.c */,
+				CF2DCC3121B54DF494FD1239 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/tinycthread.c */,
+				02D5B722F18B4CD6B24D8DA4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source/vect.c */,
+				E7B28CC3663E4E9583CE1BC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src/nanovg.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF80DA489D95423B9FC5A45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B4C97FB36B485BA63F50ED /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_init.m */,
+				8D4AF54001B546D1AFE66F69 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_joystick.m */,
+				DA092F8624E24242A1DDC4A4 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_monitor.m */,
+				F67D3DD66E5A4129B191F44D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/cocoa_window.m */,
+				463588B1C2C44E03B9ABE258 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/context.c */,
+				545BB448AF224F75860D17DA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/egl_context.c */,
+				6889953CE79847308C443AC2 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/init.c */,
+				EA52DFF46BC142A8AFE26FA8 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/input.c */,
+				DF9F9CE2087647CB8F367814 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/macos_time.c */,
+				7D90BC25019348E48722A52D /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/monitor.c */,
+				22D16AAEAB044325BD50B8A5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/nsgl_context.m */,
+				36378BEF587441E088B055EB /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_init.c */,
+				4A6389B141B749BBBEAD6C32 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_joystick.c */,
+				C3FD7C65314C4FF1B9C07BBA /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_monitor.c */,
+				2C3C2F9E094C4CACA4F938E5 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/null_window.c */,
+				8CE9225FE2B44E1893DB493B /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/osmesa_context.c */,
+				F147230D67EF4D7AA887D4C7 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/platform.c */,
+				82E17FEA9FAD449FA31AA09E /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_module.c */,
+				E174DD56A472475C8F69009F /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/posix_thread.c */,
+				A80FCD02C2C8431BB9AF6385 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/vulkan.c */,
+				AD68C5CB157D403F8798D366 /* /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C96917C32284D7C8FFBBCAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E8880336B6F41D259E31CD /* glfw */;
+			targetProxy = 136E116BD0094F4BA9979550 /* PBXContainerItemProxy */;
+		};
+		3BA12B54DBE94F27A3F01932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8528EDE90817ECE8DE6077F5 /* ZERO_CHECK */;
+			targetProxy = 105A1AD6EF624746BC95B89A /* PBXContainerItemProxy */;
+		};
+		3E7120A72C8644708EC4461C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8528EDE90817ECE8DE6077F5 /* ZERO_CHECK */;
+			targetProxy = C2D64F2A26C848759A9E7BA7 /* PBXContainerItemProxy */;
+		};
+		5122709705464059BBB47484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E8880336B6F41D259E31CD /* glfw */;
+			targetProxy = 91CD6D4FD8454D689B3F5447 /* PBXContainerItemProxy */;
+		};
+		5C873ECF77D644A79012CB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A0103CF463DE4A4A929CB72 /* soloud */;
+			targetProxy = E2516039D0654CF4ADECCCBC /* PBXContainerItemProxy */;
+		};
+		7C130547EF2B425CB73D5EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8528EDE90817ECE8DE6077F5 /* ZERO_CHECK */;
+			targetProxy = 7B8A6877A2714818B00A2740 /* PBXContainerItemProxy */;
+		};
+		B99E03CAD05D4AEB856D760A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63423B14494A4C781E61EC8E /* CProcessing */;
+			targetProxy = 5657CA00FB2E470EB1AA34FC /* PBXContainerItemProxy */;
+		};
+		C3ED0F2680E24429B70D1640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E0391A0B3034693C32B8BA0 /* MyGame */;
+			targetProxy = 05C2DC99951E4310AC33F876 /* PBXContainerItemProxy */;
+		};
+		CD98F105BF954DFE884DCCB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8528EDE90817ECE8DE6077F5 /* ZERO_CHECK */;
+			targetProxy = 66CBFCD924EF4EDDBBD1B86D /* PBXContainerItemProxy */;
+		};
+		D9ABA0B0544D4BBC81326FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A0103CF463DE4A4A929CB72 /* soloud */;
+			targetProxy = 1FCE0BCA730C4E78A7D3D1BA /* PBXContainerItemProxy */;
+		};
+		FBE5DFF4209D4FB1BBCF3B93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63423B14494A4C781E61EC8E /* CProcessing */;
+			targetProxy = CBDA81D33B514F159F48FBC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09562E65C6914C52910E5175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@loader_path /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug/libCProcessingd.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyGame;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/MyGame.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		103B559C11C046F1A1D433A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CProcessing_EXPORTS,CPROCESSING_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu11' -fPIC -fvisibility=hidden -Wall -Wextra -Wno-missing-braces ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wno-missing-braces ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/Debug/libglfw3.a","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug/libsoloud.a","-framework Cocoa","-framework IOKit","-framework QuartzCore","-framework CoreFoundation","-framework CoreAudio","-framework AudioToolbox","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CProcessingd;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/CProcessing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		20B2EB7B92454864BADDC626 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		221D80E7C83946BD95CFE630 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		28269A90D05648B696DAA706 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WITH_MINIAUDIO,WITH_NOSOUND,WITH_NULL,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC -w ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC -w ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = soloud;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/soloud.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		35C4A84F122D42D0BAB954ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3B4B0E397B644EB484435521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3F502086C1034E0EB99B108A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@loader_path /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo/libCProcessing.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyGame;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/MyGame.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		41C885E706F449F29F5BCB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		446DD4A2C4884DA5A21860FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@loader_path /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release/libCProcessing.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyGame;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/MyGame.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4535B35F481944A8B7B3A0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		51B7FA6A3AEF4AC0860F5BE2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build";
+			};
+			name = MinSizeRel;
+		};
+		5F02D143481440CA829B1D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WITH_MINIAUDIO,WITH_NOSOUND,WITH_NULL,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC -w ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC -w ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = soloud;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/soloud.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		61F3DED8381642FC8C36D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WITH_MINIAUDIO,WITH_NOSOUND,WITH_NULL,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -w ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -w ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = soloud;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/soloud.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		646C7081E41245B3A0E73FDC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		64CB099B9F954AADBE041E2F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CProcessing_EXPORTS,CPROCESSING_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu11' -fPIC -fvisibility=hidden -Wall -Wextra -Wno-missing-braces ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wno-missing-braces ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/MinSizeRel/libglfw3.a","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel/libsoloud.a","-framework Cocoa","-framework IOKit","-framework QuartzCore","-framework CoreFoundation","-framework CoreAudio","-framework AudioToolbox","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CProcessing;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/CProcessing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		73C6041B7D45462291CEE47D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		78616F78AE3E4939910AE25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7B7D5B59F32F45BE808075CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WITH_MINIAUDIO,WITH_NOSOUND,WITH_NULL,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC -w ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -w ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = soloud;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/soloud.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		91E220E8080D4AFBA350D02D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		96DAA829B9F04C88B7543803 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A360C1FFCF0E4A2196671952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BE6DBE00B7E64D59BCAA44D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build";
+			};
+			name = Release;
+		};
+		CB813B1B30614C53BF3C27CD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CProcessing_EXPORTS,CPROCESSING_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu11' -fPIC -fvisibility=hidden -Wall -Wextra -Wno-missing-braces ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wno-missing-braces ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/RelWithDebInfo/libglfw3.a","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/RelWithDebInfo/libsoloud.a","-framework Cocoa","-framework IOKit","-framework QuartzCore","-framework CoreFoundation","-framework CoreAudio","-framework AudioToolbox","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CProcessing;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/CProcessing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D06DD60395144B3B8ACE9C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CProcessing_EXPORTS,CPROCESSING_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/Source","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/GLAD","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/nanovg/src","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include/GLFW","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/soloud-src/include","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu11' -fPIC -fvisibility=hidden -Wall -Wextra -Wno-missing-braces ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wno-missing-braces ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/Release/libglfw3.a","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/Release/libsoloud.a","-framework Cocoa","-framework IOKit","-framework QuartzCore","-framework CoreFoundation","-framework CoreAudio","-framework AudioToolbox","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CProcessing;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/CProcessing.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D488ADFEF3854C219B470F34 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DF6D844748CE479E8677BD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E3332093639E4DF9834F3DC5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/include","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-src/src","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E3D135CF36C049CBA7615904 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E930C34E67F7486FAE47C777 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-src/Processing_Sample/CProcessing/inc","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@loader_path /Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel","$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/MinSizeRel/libCProcessing.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyGame;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build/MyGame.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F132A8230A7D49588FB94EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				SDKROOT = "";
+				SYMROOT = "/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/build";
+			};
+			name = Debug;
+		};
+		F99F50512FF949AE81D6C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15CF2D8E83DA4398B3A1ED85 /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A360C1FFCF0E4A2196671952 /* Debug */,
+				F99F50512FF949AE81D6C938 /* Release */,
+				20B2EB7B92454864BADDC626 /* MinSizeRel */,
+				73C6041B7D45462291CEE47D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		211E098CCA23477C9409CE56 /* Build configuration list for PBXProject "MyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F132A8230A7D49588FB94EC2 /* Debug */,
+				BE6DBE00B7E64D59BCAA44D3 /* Release */,
+				51B7FA6A3AEF4AC0860F5BE2 /* MinSizeRel */,
+				E3D135CF36C049CBA7615904 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8DA9D235B6EF42CEB8D9107F /* Build configuration list for PBXNativeTarget "soloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F02D143481440CA829B1D33 /* Debug */,
+				61F3DED8381642FC8C36D52B /* Release */,
+				7B7D5B59F32F45BE808075CF /* MinSizeRel */,
+				28269A90D05648B696DAA706 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A50ED6C164404FF0B363B9E3 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78616F78AE3E4939910AE25A /* Debug */,
+				41C885E706F449F29F5BCB49 /* Release */,
+				96DAA829B9F04C88B7543803 /* MinSizeRel */,
+				E3332093639E4DF9834F3DC5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BEB0E994944D47F9BDA059BA /* Build configuration list for PBXNativeTarget "MyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09562E65C6914C52910E5175 /* Debug */,
+				446DD4A2C4884DA5A21860FC /* Release */,
+				E930C34E67F7486FAE47C777 /* MinSizeRel */,
+				3F502086C1034E0EB99B108A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6F1A2BDD34D4FB6B7F503C1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4B0E397B644EB484435521 /* Debug */,
+				4535B35F481944A8B7B3A0FE /* Release */,
+				D488ADFEF3854C219B470F34 /* MinSizeRel */,
+				646C7081E41245B3A0E73FDC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F629F55903D64ECF9A1FE8DF /* Build configuration list for PBXNativeTarget "CProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103B559C11C046F1A1D433A9 /* Debug */,
+				D06DD60395144B3B8ACE9C51 /* Release */,
+				64CB099B9F954AADBE041E2F /* MinSizeRel */,
+				CB813B1B30614C53BF3C27CD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FEDD74E556E34273A4096B06 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C4A84F122D42D0BAB954ED /* Debug */,
+				DF6D844748CE479E8677BD4F /* Release */,
+				91E220E8080D4AFBA350D02D /* MinSizeRel */,
+				221D80E7C83946BD95CFE630 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38221C329DA7422788095BD0 /* Project object */;
+}

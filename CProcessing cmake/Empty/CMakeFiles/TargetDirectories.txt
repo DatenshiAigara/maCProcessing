@@ -1,0 +1,11 @@
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeFiles/MyGame.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeFiles/ALL_BUILD.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/CMakeFiles/ZERO_CHECK.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/soloud.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/CProcessing.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/ALL_BUILD.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/cprocessing-build/CMakeFiles/ZERO_CHECK.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/CMakeFiles/ALL_BUILD.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/CMakeFiles/ZERO_CHECK.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/CMakeFiles/glfw.dir
+/Users/samuel/Documents/GitHub/gam-100-cprocessing-3-adavanta/Empty/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
