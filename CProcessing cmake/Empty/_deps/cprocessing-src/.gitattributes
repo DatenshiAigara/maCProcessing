@@ -1,3 +1,0 @@
-# Shell scripts run on Linux and macOS (including from a Windows checkout
-# under WSL), so they always keep LF line endings
-*.sh text eol=lf
